@@ -1,0 +1,164 @@
+,station,interchange,line_from,line_to,duration
+0,Acton Town,District <> Piccadilly line: 2 minutes,District,Piccadilly,2
+1,Aldgate,Connections between Circle and Metropolitan line trains: 4 minutes,Circle,Metropolitan,4
+2,Aldgate East,Connections between District and Hammersmith & City line trains: 2 minutes.,District,Hammersmith & City,2
+3,Baker Street,Bakerloo to Circle: 8 minutes,Bakerloo,Circle,8
+4,Baker Street,Bakerloo to Hammersmith & City: 8 minutes,Bakerloo,Hammersmith & City,8
+5,Baker Street,Bakerloo to Jubilee: 2 minutes,Bakerloo,Jubilee,2
+6,Baker Street,Bakerloo to Metropolitan: 3 minutes,Bakerloo,Metropolitan,3
+7,Baker Street,Circle to Hammersmith & City: 2 minutes,Circle,Hammersmith & City,2
+8,Baker Street,Circle to Jubilee: 8 minutes,Circle,Jubilee,8
+9,Baker Street,Circle to Metropolitan: 8 minutes,Circle,Metropolitan,8
+10,Baker Street,Hammersmith & City to Jubilee: 8 minutes,Hammersmith & City,Jubilee,8
+11,Baker Street,Hammersmith & City to Metropolitan: 5 minutes,Hammersmith & City,Metropolitan,5
+12,Baker Street,Jubilee to Metropolitan: 3 minutes,Jubilee,Metropolitan,3
+13,Bank,Central to Circle: 7 minutes,Central,Circle,7
+14,Bank,Central to District: 7 minutes,Central,District,7
+15,Bank,Central to Northern: 4 minutes,Central,Northern,4
+16,Bank,Central to Waterloo & City: 4.5 minutes,Central,Waterloo & City,4.5
+17,Bank,Circle to Northern: 4 minutes,Circle,Northern,4
+18,Bank,Circle to Waterloo & City: 10 minutes,Circle,Waterloo & City,10
+19,Bank,District to Northern: 4 minutes,District,Northern,4
+20,Bank,District to Waterloo & City: 10 minutes,District,Waterloo & City,10
+21,Bank,Northern to Waterloo & City: 7 minutes,Northern,Waterloo & City,7
+22,Barbican,Circle to Hammersmith & City: 2 minutes,Circle,Hammersmith & City,2
+23,Barbican,Circle to Metropolitan: 2 minutes,Circle,Metropolitan,2
+24,Barbican,Hammersmith & City to Metropolitan: 2 minutes,Hammersmith & City,Metropolitan,2
+25,Barking,District to Hammersmith & City: 4 minutes,District,Hammersmith & City,4
+27,Barons Court,Connections between District and Piccadilly line trains: 4 minutes,District,Piccadilly,4
+28,Bayswater,Connections between Circle and District line trains: 4 minutes,Circle,District,4
+29,Bond Street,Central to Jubilee: 4 minutes,Central,Jubilee,4
+30,Bow Road,District to Hammersmith & City: 2 minutes,District,Hammersmith & City,2
+31,Bromley By Bow,District to Hammersmith & City: 4 minutes,District,Hammersmith & City,4
+34,Cannon Street,Circle to District: 3 minutes,Circle,District,3
+35,Charing Cross,Bakerloo to Northern: 7 minutes,Bakerloo,Northern,7
+36,Ealing Broadway,Central to District: 4 minutes,Central,District,4
+37,Ealing Common,Connections between District and Piccadilly line: 4 minutes,District,Piccadilly,4
+38,Earls Court,Connections between District and Piccadilly line: 3 minutes (2 minutes between different District services),District,Piccadilly,3
+39,Eastcote,Connections between Metropolitan and Piccadilly line: 4 minutes,Metropolitan,Piccadilly,4
+40,East Ham,Connections between District and Hammersmith & City line: 4 minutes,District,Hammersmith & City,4
+41,Edgware Road,"Connections between District, Hammersmith & City Circle line trains: 4 minutes",District,Hammersmith & City,4
+41,Edgware Road,"Connections between District, Hammersmith & City Circle line trains: 4 minutes",District,Circle,4
+41,Edgware Road,"Connections between District, Hammersmith & City Circle line trains: 4 minutes",Hammersmith & City,Circle,4
+42,Embankment,Bakerloo to Circle: 5 minutes,Bakerloo,Circle,5
+43,Embankment,Bakerloo to District: 5 minutes,Bakerloo,District,5
+44,Embankment,Bakerloo to Northern: 5 minutes,Bakerloo,Northern,5
+45,Embankment,Circle to District: 4 minutes,Circle,District,4
+46,Embankment,Circle to Northern: 5 minutes,Circle,Northern,5
+47,Embankment,District to Northern: 5 minutes,District,Northern,5
+48,Euston,Northern to Victoria: 5 minutes,Northern,Victoria,5
+49,Euston Square,"Connections between Metropolitan, Hammersmith & City, Circle line trains: 2 minutes",Metropolitan,Hammersmith & City,2
+49,Euston Square,"Connections between Metropolitan, Hammersmith & City, Circle line trains: 2 minutes",Metropolitan,Circle,2
+49,Euston Square,"Connections between Metropolitan, Hammersmith & City, Circle line trains: 2 minutes",Hammersmith & City,Circle,2
+50,Farringdon,"Connections between Metropolitan, Hammersmith & City and Circle line trains: 4 minutes",Metropolitan,Hammersmith & City,4
+50,Farringdon,"Connections between Metropolitan, Hammersmith & City and Circle line trains: 4 minutes",Metropolitan,Circle,4
+50,Farringdon,"Connections between Metropolitan, Hammersmith & City and Circle line trains: 4 minutes",Hammersmith & City,Circle,4
+53,Finchley Road,Connections between Jubilee and Metropolitan line trains: 3 minutes,Jubilee,Metropolitan,3
+54,Finsbury Park,Connections between Piccadilly and Victoria line trains: 4 minutes,Piccadilly,Victoria,4
+55,Gloucester Road,Circle to District: 4 minutes,Circle,District,4
+56,Gloucester Road,Circle to Piccadilly: 7 minutes,Circle,Piccadilly,7
+57,Gloucester Road,District to Piccadilly: 7 minutes,District,Piccadilly,7
+58,Great Portland Street,"Connections between Metropolitan, Hammersmith & City and Circle line trains: 4 minutes",Metropolitan,Hammersmith & City,4
+58,Great Portland Street,"Connections between Metropolitan, Hammersmith & City and Circle line trains: 4 minutes",Metropolitan,Circle,4
+58,Great Portland Street,"Connections between Metropolitan, Hammersmith & City and Circle line trains: 4 minutes",Hammersmith & City,Circle,4
+59,Green Park,Jubilee to Piccadilly: 5.5 minutes,Jubilee,Piccadilly,5.5
+60,Green Park,Jubilee to Victoria: 4.5 minutes,Jubilee,Victoria,4.5
+61,Green Park,Piccadilly to Victoria: 4 minutes,Piccadilly,Victoria,4
+62,Hammersmith,District to Piccadilly: 4 minutes,District,Piccadilly,4
+66,High Street Kensington,Circle to District: 4 minutes,Circle,District,4
+67,Hillingdon,Connections between Metropolitan and Piccadilly line: 4 minutes,Metropolitan,Piccadilly,4
+68,Holborn,Central to Piccadilly: 6 minutes,Central,Piccadilly,6
+69,Ickenham,Connections between Metropolitan and Piccadilly line: 4 minutes,Metropolitan,Piccadilly,4
+72,Kings Cross St Pancras,Circle to Hammersmith & City: 2 minutes,Circle,Hammersmith & City,2
+73,Kings Cross St Pancras,Circle to Metropolitan: 2 minutes,Circle,Metropolitan,2
+74,Kings Cross St Pancras,Circle to Northern: 7.5 minutes,Circle,Northern,7.5
+75,Kings Cross St Pancras,Circle to Piccadilly: 5 minutes,Circle,Piccadilly,5
+76,Kings Cross St Pancras,Circle to Victoria: 5 minutes,Circle,Victoria,5
+77,Kings Cross St Pancras,Hammersmith & City to Metropolitan: 2 minutes,Hammersmith & City,Metropolitan,2
+78,Kings Cross St Pancras,Hammersmith & City to Northern: 7.5 minutes,Hammersmith & City,Northern,7.5
+79,Kings Cross St Pancras,Hammersmith & City to Piccadilly: 5 minutes,Hammersmith & City,Piccadilly,5
+80,Kings Cross St Pancras,Hammersmith & City to Victoria: 5 minutes,Hammersmith & City,Victoria,5
+81,Kings Cross St Pancras,Metropolitan to Northern: 7.5 minutes,Metropolitan,Northern,7.5
+82,Kings Cross St Pancras,Metropolitan to Piccadilly: 5 minutes,Metropolitan,Piccadilly,5
+83,Kings Cross St Pancras,Metropolitan to Victoria: 5 minutes,Metropolitan,Victoria,5
+84,Kings Cross St Pancras,Northern to Piccadilly: 2.5 minutes,Northern,Piccadilly,2.5
+85,Kings Cross St Pancras,Northern to Victoria: 4.5 minutes,Northern,Victoria,4.5
+86,Kings Cross St Pancras,Piccadilly to Victoria: 2 minutes,Piccadilly,Victoria,2
+87,Ladbroke Grove,Connections between Circle and Hammersmith & City: 4 minutes,Circle,Hammersmith & City,4
+88,Latimer Road,Connections between Circle and Hammersmith & City: 4 minutes,Circle,Hammersmith & City,4
+89,Leicester Square,Northern to Piccadilly: 4 minutes,Northern,Piccadilly,4
+91,Liverpool Street,Central to Circle: 6 minutes,Central,Circle,6
+92,Liverpool Street,Central to Hammersmith & City: 6 minutes,Central,Hammersmith & City,6
+93,Liverpool Street,Central to Metropolitan: 6 minutes,Central,Metropolitan,6
+94,Liverpool Street,Circle to Hammersmith & City: 4 minutes,Circle,Hammersmith & City,4
+95,Liverpool Street,Circle to Metropolitan: 4 minutes,Circle,Metropolitan,4
+96,Liverpool Street,Hammersmith & City to Metropolitan: 4 minutes,Hammersmith & City,Metropolitan,4
+97,London Bridge,Jubilee to Northern: 6 minutes,Jubilee,Northern,6
+98,Mansion House,Circle to District: 4 minutes,Circle,District,4
+99,Mile End,Central to District: 3 minutes,Central,District,3
+100,Mile End,Central to Hammersmith & City: 3 minutes,Central,Hammersmith & City,3
+101,Mile End,District to Hammersmith & City: 3 minutes,District,Hammersmith & City,3
+102,Monument,Central to Circle: 7 minutes,Central,Circle,7
+103,Monument,Central to District: 7 minutes,Central,District,7
+104,Monument,Central to Northern: 4 minutes,Central,Northern,4
+105,Monument,Central to Waterloo & City: 4.5 minutes,Central,Waterloo & City,4.5
+106,Monument,Circle to District: 4 minutes,Circle,District,4
+107,Monument,Circle to Northern: 4 minutes,Circle,Northern,4
+108,Monument,Circle to Waterloo & City: 10 minutes,Circle,Waterloo & City,10
+109,Monument,District to Northern: 4 minutes,District,Northern,4
+110,Monument,District to Waterloo & City: 10 minutes,District,Waterloo & City,10
+111,Monument,Northern to Waterloo & City: 7 minutes,Northern,Waterloo & City,7
+112,Moorgate,Circle to Hammersmith & City: 4 minutes,Circle,Hammersmith & City,4
+113,Moorgate,Circle to Metropolitan: 4 minutes,Circle,Metropolitan,4
+114,Moorgate,Circle to Northern: 7 minutes,Circle,Northern,7
+115,Moorgate,Hammersmith & City to Metropolitan: 4 minutes,Hammersmith & City,Metropolitan,4
+116,Moorgate,Hammersmith & City to Northern: 7 minutes,Hammersmith & City,Northern,7
+117,Moorgate,Metropolitan to Northern: 7 minutes,Metropolitan,Northern,7
+119,Notting Hill Gate,Central to Circle: 4 minutes,Central,Circle,4
+120,Notting Hill Gate,Central to District: 4 minutes,Central,District,4
+121,Notting Hill Gate,Circle to District: 4 minutes,Circle,District,4
+122,Oxford Circus,Bakerloo to Central: 4 minutes,Bakerloo,Central,4
+123,Oxford Circus,Bakerloo to Victoria: 4 minutes,Bakerloo,Victoria,4
+124,Oxford Circus,Central to Victoria: 4 minutes,Central,Victoria,4
+125,Paddington,Bakerloo to Circle: 7 minutes,Bakerloo,Circle,7
+126,Paddington,Bakerloo to District: 7 minutes,Bakerloo,District,7
+127,Paddington,Bakerloo to Hammersmith & City: 15 minutes,Bakerloo,Hammersmith & City,15
+128,Paddington,Circle to District: 4 minutes,Circle,District,4
+129,Paddington,Circle to Hammersmith & City: 13 minutes,Circle,Hammersmith & City,13
+130,Paddington,District to Hammersmith & City: 13 minutes,District,Hammersmith & City,13
+131,Piccadilly Circus,Bakerloo to Piccadilly: 3 minutes,Bakerloo,Piccadilly,3
+132,Plaistow,Connections between District and Hammersmith & City: 4 minutes,District,Hammersmith & City,4
+133,Rayners Lane,Metropolitan to Piccadilly: 4 minutes,Metropolitan,Piccadilly,4
+134,Royal Oak,Connections between Circle and Hammersmith & City line: 2 minutes,Circle,Hammersmith & City,2
+135,Ruislip,Connections between Metropolitan and Piccadilly line: 3 minutes,Metropolitan,Piccadilly,3
+136,Ruislip Manor,Connections between Metropolitan and Piccadilly line: 4 minutes,Metropolitan,Piccadilly,4
+137,St James Park,Connections between Circle and District lines: 4 minutes,Circle,District,4
+138,Shepherds Bush,Connections between Circle and Hammersmith & City lines: 4 minutes,Circle,Hammersmith & City,4
+139,Sloane Square,Connections between Circle and District lines: 5 minutes,Circle,District,5
+140,South Kensington,Circle to District: 2 minutes,Circle,District,2
+141,South Kensington,Circle to Piccadilly:4 minutes,Circle,Piccadilly,4
+142,South Kensington,District to Piccadilly: 4 minutes,District,Piccadilly,4
+143,Stepney Green,Connections between District and Hammersmith & City line: 4 minutes,District,Hammersmith & City,4
+144,Stockwell,Connections between Northern Line and Victoria line trains: 3 minutes,Northern,Victoria,3
+151,Temple,Connections between Circle and District: 4 minutes,Circle,District,4
+152,Tottenham Court Road,Central to Northern: 4 minutes,Central,Northern,4
+153,Tower Hill,"Connections between Circle and District, and with terminating District: 2 minutes.",Circle,District,2
+154,Turnham Green,District to Piccadilly: 4 minutes,District,Piccadilly,4
+156,Upton Park,District to Hammersmith & City: 4 minutes,District,Hammersmith & City,4
+157,Uxbridge,Metropolitan to Piccadilly: 1 minute,Metropolitan,Piccadilly,1
+158,Victoria,Circle to District: 2 minutes,Circle,District,2
+159,Victoria,Circle to Victoria: 4 minutes,Circle,Victoria,4
+160,Victoria,District to Victoria: 4 minutes,District,Victoria,4
+162,Warren Street,Northern to Victoria: 6 minutes,Northern,Victoria,6
+163,Waterloo,Bakerloo to Jubilee: 6 minutes,Bakerloo,Jubilee,6
+164,Waterloo,Bakerloo to Northern: 4 minutes,Bakerloo,Northern,4
+165,Waterloo,Jubilee to Northern: 6 minutes,Jubilee,Northern,6
+167,Wembley Park,Jubilee to Metropolitan: 4 minutes,Jubilee,Metropolitan,4
+168,Westbourne Park,Connections between Circle and Hammersmith & City lines: 4 minutes,Circle,Hammersmith & City,4
+171,West Ham,District to Hammersmith & City: 5 minutes,District,Hammersmith & City,5
+172,West Ham,District to Jubilee: 5 minutes,District,Jubilee,5
+173,West Ham,Hammersmith & City to Jubilee,Hammersmith & City,Jubilee,5
+174,Westminster,Circle to District: 4 minutes,Circle,District,4
+175,Westminster,Circle to Jubilee: 6 minutes,Circle,Jubilee,6
+176,Westminster,District to Jubilee: 6 minutes,District,Jubilee,6
+177,Whitechapel,Hammersmith & City  to District: 2 minutes,Hammersmith & City,District,2

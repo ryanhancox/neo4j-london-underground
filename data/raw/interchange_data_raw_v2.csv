@@ -1,0 +1,344 @@
+,station,interchange
+0,Acton Town,District <> Piccadilly line: 2 minutes
+1,Aldgate,Connections between Circle and Metropolitan line trains: 4 minutes
+2,Aldgate East,Connections between District and Hammersmith & City line trains: 2 minutes.
+3,Amersham,Connections between Metropolitan and Chiltern Railways: 3 minutes
+4,Anerley,Connections between London Overground and Southern: 4 minutes
+5,Baker Street,Bakerloo to Circle: 8 minutes
+6,Baker Street,Bakerloo to Hammersmith & City: 8 minutes
+7,Baker Street,Bakerloo to Jubilee: 2 minutes
+8,Baker Street,Bakerloo to Metropolitan: 3 minutes
+9,Baker Street,Circle to Hammersmith & City: 2 minutes
+10,Baker Street,Circle to Jubilee: 8 minutes
+11,Baker Street,Circle to Metropolitan: 8 minutes
+12,Baker Street,Hammersmith & City to Jubilee: 8 minutes
+13,Baker Street,Hammersmith & City to Metropolitan: 5 minutes
+14,Baker Street,Jubilee to Metropolitan: 3 minutes
+15,Balham,Northern to National Rail: 8 minutes
+16,Bank,Central to Circle: 7 minutes
+17,Bank,Central to District: 7 minutes
+18,Bank,Central to DLR: 3 minutes
+19,Bank,Central to Northern: 4 minutes
+20,Bank,Central to Waterloo & City: 4.5 minutes
+21,Bank,Circle to DLR: 4 minutes
+22,Bank,Circle to Northern: 4 minutes
+23,Bank,Circle to Waterloo & City: 10 minutes
+24,Bank,District to DLR: 4 minutes
+25,Bank,District to Northern: 4 minutes
+26,Bank,District to Waterloo & City: 10 minutes
+27,Bank,DLR to Northern: 3 minutes
+28,Bank,DLR to Waterloo & City: 6 minutes
+29,Bank,Northern to Waterloo & City: 7 minutes
+30,Barbican,Circle to Hammersmith & City: 2 minutes
+31,Barbican,Circle to Metropolitan: 2 minutes
+32,Barbican,Hammersmith & City to Metropolitan: 2 minutes
+33,Barking,District to c2c: 4 minutes
+34,Barking,District to Hammersmith & City: 4 minutes
+35,Barking,District to London Overground: 4 minutes
+36,Barking,C2C to Hammersmith & City: 4 minutes
+37,Barking,C2C to London Overground: 4 minutes
+38,Barking,London Overground to Hammersmith & City: 4 minutes
+39,Barons Court,Connections between District and Piccadilly line trains: 4 minutes
+40,Bayswater,Connections between Circle and District line trains: 4 minutes
+41,Blackhorse Road,London Overground to Victoria: 6 minutes
+42,Bond Street,Central to Jubilee: 4 minutes
+43,Bow Church,Step-free access via lift (one on each platform)
+44,Bow Road,District to Hammersmith & City: 2 minutes
+45,Brockley,Connections between London Overground and Southern: 4 minutes
+46,Bromley By Bow,District to Hammersmith & City: 4 minutes
+47,Bushey,London Overground to London Midland: 4 minutes
+48,Camden Town,Interchange between branches: 4 minutes
+49,Canada Water,Jubilee to London Overground: 2.5 minutes
+50,Canary Wharf London Underground,Interchange with Heron Quays DLR: 5 minutes
+51,Canning Town,DLR to Jubilee: 4 minutes
+52,Canning Town,DLR between branches: 5 minutes
+53,Cannon Street,Circle to District: 3 minutes
+54,Cannon Street,Circle to National Rail: 7 minutes
+55,Cannon Street,District to National Rail: 7 minutes
+56,Chalfont & Latimer,Chiltern to Metropolitan: 4 minutes
+57,Charing Cross,Bakerloo to Northern: 7 minutes
+58,Charing Cross,Bakerloo to National Rail: 10 minutes
+59,Charing Cross,Northern to National Rail: 7 minutes
+60,Chorleywood,Chiltern Railways to Metropolitan: 3 minutes
+61,Clapham Junction,London Overground to Southern: 4 minutes
+62,Clapham Junction,London Overground to South West Trains (Richmond): 5 minutes
+63,Clapham Junction,London Overground to South West Trains (Wimbledon): 5 minutes
+64,Clapham Junction,Southern to South West Trains (Richmond): 4 minutes
+65,Clapham Junction,Southern to South West Trains (Wimbledon): 3 minutes
+66,Clapham Junction,South West Trains (Richmond) to South West Trains (Wimbledon): 5 minutes
+67,Crystal Palace,London Overground to Southern: 4 minutes
+68,Crystal Palace,"Southern, between branches: 4 minutes"
+69,Ealing Broadway,Central to District: 4 minutes
+70,Ealing Broadway,Central to First Great Western: 5 minutes
+71,Ealing Broadway,Central to Heathrow Connect: 5 minutes
+72,Ealing Broadway,District to First Great Western: 5 minutes
+73,Ealing Broadway,District to Heathrow Connect: 5 minutes
+74,Ealing Common,Connections between District and Piccadilly line: 4 minutes
+75,Earls Court,Connections between District and Piccadilly line: 3 minutes (2 minutes between different District services)
+76,Eastcote,Connections between Metropolitan and Piccadilly line: 4 minutes
+77,East Ham,Connections between District and Hammersmith & City line: 4 minutes
+78,Edgware Road,"Connections between District, Hammersmith & City Circle line trains: 4 minutes"
+79,Elephant & Castle London Underground,Bakerloo to Northern: 2 minutes
+80,Elverson Road,Step-free level access available.
+81,Embankment,Bakerloo to Circle: 5 minutes
+82,Embankment,Bakerloo to District: 5 minutes
+83,Embankment,Bakerloo to Northern: 5 minutes
+84,Embankment,Circle to District: 4 minutes
+85,Embankment,Circle to Northern: 5 minutes
+86,Embankment,District to Northern: 5 minutes
+87,Euston,Northern to Victoria: 5 minutes
+88,Euston,Northern to London Overground/NR: 10 minutes
+89,Euston,Victoria to London Overground/NR: 9 minutes
+90,Euston Square,"Connections between Metropolitan, Hammersmith & City, Circle line trains: 2 minutes"
+91,Farringdon,"Connections between Metropolitan, Hammersmith & City and Circle line trains: 4 minutes"
+92,Farringdon,"Connections between Metropolitan, Hammersmith & City and Circle line trains and First Capital Connect: 5 minutes"
+93,Finchley Central,Connections between High Barnet and trains terminating at Mill Hill East: 3 minutes
+94,Finchley Road,Connections between Jubilee and Metropolitan line trains: 3 minutes
+95,Finsbury Park,Connections between Piccadilly and Victoria line trains: 4 minutes
+96,Finsbury Park,Connections between Piccadilly and First Capital Connect: 5 minutes
+97,Finsbury Park,Connections between Victoria and First Capital Connect: 5 minutes
+98,Forest Hill,Connections between London Overground and Southern: 4 minutes
+99,Gloucester Road,Circle to District: 4 minutes
+100,Gloucester Road,Circle to Piccadilly: 7 minutes
+101,Gloucester Road,District to Piccadilly: 7 minutes
+102,Gospel Oak,Interchange between Barking branch and North London Line: 5 minutes
+103,Great Portland Street,"Connections between Metropolitan, Hammersmith & City and Circle line trains: 4 minutes"
+104,Greenford,Connections between Central line and First Great Western services: 4 minutes
+105,Green Park,Jubilee to Piccadilly: 5.5 minutes
+106,Green Park,Jubilee to Victoria: 4.5 minutes
+107,Green Park,Piccadilly to Victoria: 4 minutes
+108,Greenwich,DLR to Southeastern: 5 minutes
+109,Gunnersbury,Connections between District line and London Overground services: 4 minutes
+110,Hammersmith,District to Piccadilly: 4 minutes
+111,Harlesden,Connections between Bakerloo line and London Overground services: 5 minutes
+112,Harringay Green Lanes,Step-free access via ramps between street and platforms.
+113,Harrow & Wealdstone,Bakerloo to London Overground and all National Rail: 5 minutes
+114,Harrow & Wealdstone,London Overground to National Rail: 5 minutes
+115,Harrow On The Hill,Chiltern Railways to Metropolitan: 4 minutes
+116,Harrow On The Hill,Metropolitan (different branches): 4 minutes
+117,Hatton Cross,Piccadilly (different branches): 2 minutes
+118,Heathrow Terminals 123 London Underground,Piccadilly (different branches): 2 minutes
+119,Heathrow Terminal  5,Heathrow Express to Piccadilly line: 5 minutes
+120,Heron Quays,Interchange with Canary Wharf LU station: 5 minutes
+121,Highbury & Islington,First Capital Connect to London Overground: 6 minutes
+122,Highbury & Islington,First Capital Connect to Victoria: 4 minutes
+123,Highbury & Islington,London Overground to Victoria: 6 minutes
+124,Highbury & Islington,London Overground (different branches): 5 minutes
+125,High Street Kensington,Circle to District: 4 minutes
+126,High Street Kensington,District (different branches): 4 minutes
+127,Hillingdon,Connections between Metropolitan and Piccadilly line: 4 minutes
+128,Holborn,Central to Piccadilly: 6 minutes
+129,Honor Oak Park,Connections between London Overground and Southern: 4 minutes
+130,Ickenham,Connections between Metropolitan and Piccadilly line: 4 minutes
+131,Imperial Wharf,London Overground to Southern: 5 minutes
+132,Kennington,Connections between different branches: 2 minutes
+133,Kensal Green,Connections between Bakerloo line and London Overground services: 5 minutes
+134,Kensington,District to London Overground and National Rail: 3 minutes
+135,Kensington,London Overground to National Rail: 5 minutes
+136,Kentish Town,First Capital Connect to Northern: 6 minutes
+137,Kenton,Connections between Bakerloo line and London Overground services: 5 minutes
+138,Kew Gardens,Connections between District line and London Overground services: 5 minutes
+139,Kings Cross St Pancras,Circle to Hammersmith & City: 2 minutes
+140,Kings Cross St Pancras,Circle to Metropolitan: 2 minutes
+141,Kings Cross St Pancras,Circle to Northern: 7.5 minutes
+142,Kings Cross St Pancras,Circle to Piccadilly: 5 minutes
+143,Kings Cross St Pancras,Circle to Victoria: 5 minutes
+144,Kings Cross St Pancras,Circle to National Rail: 12 minutes
+145,Kings Cross St Pancras,Hammersmith & City to Metropolitan: 2 minutes
+146,Kings Cross St Pancras,Hammersmith & City to Northern: 7.5 minutes
+147,Kings Cross St Pancras,Hammersmith & City to Piccadilly: 5 minutes
+148,Kings Cross St Pancras,Hammersmith & City to Victoria: 5 minutes
+149,Kings Cross St Pancras,Hammersmith & City to National Rail: 12 minutes
+150,Kings Cross St Pancras,Metropolitan to Northern: 7.5 minutes
+151,Kings Cross St Pancras,Metropolitan to Piccadilly: 5 minutes
+152,Kings Cross St Pancras,Metropolitan to Victoria: 5 minutes
+153,Kings Cross St Pancras,Metropolitan to National Rail: 12 minutes
+154,Kings Cross St Pancras,Northern to Piccadilly: 2.5 minutes
+155,Kings Cross St Pancras,Northern to Victoria: 4.5 minutes
+156,Kings Cross St Pancras,Northern to National Rail: 9.5 minutes
+157,Kings Cross St Pancras,Piccadilly to Victoria: 2 minutes
+158,Kings Cross St Pancras,Piccadilly to National Rail: 10 minutes
+159,Kings Cross St Pancras,Victoria to National Rail: 12 minutes
+160,Ladbroke Grove,Connections between Circle and Hammersmith & City: 4 minutes
+161,Latimer Road,Connections between Circle and Hammersmith & City: 4 minutes
+162,Leicester Square,Northern to Piccadilly: 4 minutes
+163,Lewisham,DLR to Southeastern: 7 minutes
+164,Leytonstone,Connections between different branches: 4 minutes
+165,Limehouse,C2C to DLR: 5 minutes
+166,Liverpool Street,Central to Circle: 6 minutes
+167,Liverpool Street,Central to Hammersmith & City: 6 minutes
+168,Liverpool Street,Central to Metropolitan: 6 minutes
+169,Liverpool Street,Central to National Rail: 6 minutes
+170,Liverpool Street,Circle to Hammersmith & City: 4 minutes
+171,Liverpool Street,Circle to Metropolitan: 4 minutes
+172,Liverpool Street,Circle to National Rail: 8 minutes
+173,Liverpool Street,Hammersmith & City to Metropolitan: 4 minutes
+174,Liverpool Street,Hammersmith & City to National Rail: 8 minutes
+175,Liverpool Street,Metropolitan to National Rail: 8 minutes
+176,London Bridge,Jubilee to Northern: 6 minutes
+177,London Bridge,Jubilee to National Rail: 7 minutes
+178,London Bridge,Northern to National Rail: 10 minutes
+179,Mansion House,Circle to District: 4 minutes
+180,Marylebone,Bakerloo to Chiltern Railways: 9 minutes
+181,Mile End,Central to District: 3 minutes
+182,Mile End,Central to Hammersmith & City: 3 minutes
+183,Mile End,District to Hammersmith & City: 3 minutes
+184,Monument,Central to Circle: 7 minutes
+185,Monument,Central to District: 7 minutes
+186,Monument,Central to DLR: 3 minutes
+187,Monument,Central to Northern: 4 minutes
+188,Monument,Central to Waterloo & City: 4.5 minutes
+189,Monument,Circle to District: 4 minutes
+190,Monument,Circle to DLR: 4 minutes
+191,Monument,Circle to Northern: 4 minutes
+192,Monument,Circle to Waterloo & City: 10 minutes
+193,Monument,District to DLR: 4 minutes
+194,Monument,District to Northern: 4 minutes
+195,Monument,District to Waterloo & City: 10 minutes
+196,Monument,DLR to Northern: 3 minutes
+197,Monument,DLR to Waterloo & City: 6 minutes
+198,Monument,Northern to Waterloo & City: 7 minutes
+199,Moorgate,Circle to Hammersmith & City: 4 minutes
+200,Moorgate,Circle to Metropolitan: 4 minutes
+201,Moorgate,Circle to Northern: 7 minutes
+202,Moorgate,Circle to First Capital Connect: 6 minutes
+203,Moorgate,Hammersmith & City to Metropolitan: 4 minutes
+204,Moorgate,Hammersmith & City to Northern: 7 minutes
+205,Moorgate,Hammersmith & City to First Capital Connect: 6 minutes
+206,Moorgate,Metropolitan to Northern: 7 minutes
+207,Moorgate,Metropolitan to First Capital Connect: 6 minutes
+208,Moorgate,Northern to First Capital Connect: 2 minutes
+209,Moor Park,Connections between different branches: 3minutes
+210,New Cross,London Overground to Southeastern: 4 minutes
+211,New Cross Gate,London Overground to Southern: 4 minutes
+212,North Wembley,Connections between Bakerloo line and London Overground services: 5 minutes
+213,Norwood Junction,London Overground to Southern: 2 minutes
+214,Notting Hill Gate,Central to Circle: 4 minutes
+215,Notting Hill Gate,Central to District: 4 minutes
+216,Notting Hill Gate,Circle to District: 4 minutes
+217,Old Street,First Capital Connect to Northern: 3 minutes
+218,Oxford Circus,Bakerloo to Central: 4 minutes
+219,Oxford Circus,Bakerloo to Victoria: 4 minutes
+220,Oxford Circus,Central to Victoria: 4 minutes
+221,Paddington,Bakerloo to Circle: 7 minutes
+222,Paddington,Bakerloo to District: 7 minutes
+223,Paddington,Bakerloo to Hammersmith & City: 15 minutes
+224,Paddington,Bakerloo to National Rail: 8 minutes
+225,Paddington,Circle to District: 4 minutes
+226,Paddington,Circle to Hammersmith & City: 13 minutes
+227,Paddington,Circle to National Rail: 6 minutes
+228,Paddington,District to Hammersmith & City: 13 minutes
+229,Paddington,District to National Rail: 6 minutes
+230,Paddington,Hammersmith & City to National Rail: 5 minutes
+231,Penge West,Connections between London Overground and Southern: 4 minutes
+232,Piccadilly Circus,Bakerloo to Piccadilly: 3 minutes
+233,Plaistow,Connections between District and Hammersmith & City: 4 minutes
+234,Poplar,Connections between different DLR branches: 2 minutes
+235,Queens Park,Bakerloo to London Overground: 4.5 minutes
+236,Rayners Lane,Metropolitan to Piccadilly: 4 minutes
+237,Richmond,District to London Overground: 4 minutes
+238,Rickmansworth,Chiltern Railways to Metropolitan: 3 minutes
+239,Royal Oak,Connections between Circle and Hammersmith & City line: 2 minutes
+240,Ruislip,Connections between Metropolitan and Piccadilly line: 3 minutes
+241,Ruislip Manor,Connections between Metropolitan and Piccadilly line: 4 minutes
+242,St James Park,Connections between Circle and District lines: 4 minutes
+243,Seven Sisters,National Express East Anglia to Victoria: 7 minutes
+244,Shadwell,DLR to London Overground: 5 minutes
+245,Shepherds Bush,Central to London Overground: 8 minutes
+246,Shepherds Bush,Connections between Circle and Hammersmith & City lines: 4 minutes
+247,Sloane Square,Connections between Circle and District lines: 5 minutes
+248,South Kensington,Circle to District: 2 minutes
+249,South Kensington,Circle to Piccadilly:4 minutes
+250,South Kensington,District to Piccadilly: 4 minutes
+251,South Kenton,Bakerloo to London Overground: 2 minutes
+252,South Ruislip,Central to Chiltern Railways: 5 minutes
+253,Stepney Green,Connections between District and Hammersmith & City line: 4 minutes
+254,Stockwell,Connections between Northern Line and Victoria line trains: 3 minutes
+255,Stonebridge Park,Connections between Bakerloo and London Overground: 4 minutes
+256,Stratford,Central to DLR Stratford Int: 4 minutes
+257,Stratford,Central to DLR Canary Wharf: 3 minutes
+258,Stratford,Central to London Overground: 5 minutes
+259,Stratford,Central to National Express East Anglia: 5 minutes
+260,Stratford,DLR Stratford Int to DLR Canary Wharf: 4.5 minutes
+261,Stratford,DLR Stratford Int to London Overground: 6 minutes
+262,Stratford,DLR Stratford Int to National Express East Anglia: 6 minutes
+263,Stratford,DLR Canary Wharf to London Overground: 6 minutes
+264,Stratford,DLR Canary Wharf to National Express East Anglia: 6 minutes
+265,Stratford,London Overground to National Express East Anglia: 7 minutes
+266,Stratford International,DLR to Southeastern: 6 minutes
+267,Sydenham,Connections between London Overground and Southern: 4 minutes
+268,Temple,Connections between Circle and District: 4 minutes
+269,Tottenham Court Road,Central to Northern: 4 minutes
+270,Tottenham Hale,National Express East Anglia to Victoria: 5 minutes
+271,Tower Hill,"Connections between Circle and District, and with terminating District: 2 minutes."
+272,Turnham Green,District (between branches): 4 minutes
+273,Turnham Green,District to Piccadilly: 4 minutes
+274,Upminster,C2C to District: 4.5 minutes
+275,Upminster,C2C to National Express East Anglia: 5 minutes
+276,Upminster,District to National Express East Anglia: 4.5 minutes
+277,Upton Park,District to Hammersmith & City: 4 minutes
+278,Uxbridge,Metropolitan to Piccadilly: 1 minute
+279,Vauxhall,South West Trains to Victoria: 9 minutes
+280,Victoria,Circle to District: 2 minutes
+281,Victoria,Circle to Southern: 10 minutes
+282,Victoria,Circle to Southeastern: 10 minutes
+283,Victoria,Circle to Victoria: 4 minutes
+284,Victoria,District to Southern: 10 minutes
+285,Victoria,District to Southeastern: 10 minutes
+286,Victoria,District to Victoria: 4 minutes
+287,Victoria,Southern to Southeastern: 10 minutes
+288,Victoria,Southern to Victoria: 10 minutes
+289,Victoria,Southeastern to Victoria: 10 minutes
+290,Walthamstow Central,National Express East Anglia to Victoria: 4 minutes
+291,Warren Street,Northern to Victoria: 6 minutes
+292,Waterloo,Bakerloo to Jubilee: 6 minutes
+293,Waterloo,Bakerloo to Northern: 4 minutes
+294,Waterloo,Bakerloo to South West Trains: 10 minutes
+295,Waterloo,Jubilee to Northern: 6 minutes
+296,Waterloo,Jubilee to South West Trains: 11 minutes
+297,Waterloo,Northern to South West Trains: 10 minutes
+298,Watford Junction,London Overground to London Midland: 5 minutes
+299,Watford Junction,London Overground to Southern: 5 minutes
+300,Watford Junction,London Overground to Virgin Trains: 5 minutes
+301,Watford Junction,London Midland to Southern: 5 minutes
+302,Watford Junction,London Midland to Virgin Trains: 5 minutes
+303,Watford Junction,Southern to Virgin Trains: 5 minutes
+304,Wembley Central,Bakerloo to London Overground: 5 minutes
+305,Wembley Central,Bakerloo to Southern: 5 minutes
+306,Wembley Central,London Overground to Southern: 5 minutes
+307,Wembley Park,Jubilee to Metropolitan: 4 minutes
+308,Westbourne Park,Connections between Circle and Hammersmith & City lines: 4 minutes
+309,West Brompton,District to London Overground: 5 minutes
+310,West Brompton,District to Southern: 5 minutes
+311,West Brompton,London Overground to Southern: 5 minutes
+312,West Croydon,London Overground to Southern: 4 minutes
+313,Westferry,Interchange between different DLR branches: 4 minutes
+314,West Ham,C2C to District: 4.5 minutes
+315,West Ham,C2C to DLR: 5.5 minutes
+316,West Ham,C2C to Hammersmith & City: 4.5 minutes
+317,West Ham,C2C to Jubilee: 5.5 minutes
+318,West Ham,District to DLR: 5 minutes
+319,West Ham,District to Hammersmith & City: 5 minutes
+320,West Ham,District to Jubilee: 5 minutes
+321,West Ham,DLR to Hammersmith & City: 5 minutes
+322,West Ham,DLR to Jubilee: 3 minutes
+323,West Ham,Hammersmith & City to Jubilee
+324,West Hampstead,Jubilee to London Overground: 3.5 minutes
+325,West India Quay,Interchange between different DLR branches
+326,Westminster,Circle to District: 4 minutes
+327,Westminster,Circle to Jubilee: 6 minutes
+328,Westminster,District to Jubilee: 6 minutes
+329,West Ruislip,Central to Chiltern Railways: 5 minutes
+330,Whitechapel,Hammersmith & City  to District: 2 minutes
+331,Whitechapel,Hammersmith & City  to London Overground: 5 minutes
+332,Whitechapel,District to London Overground: 5 minutes
+333,Willesden Green, 
+334,Willesden Junction,Bakerloo to London Overground (Watford): 4 minutes
+335,Willesden Junction,Bakerloo to London Overground (North/West London Lines): 5 minutes
+336,Willesden Junction,London Overground (Watford) to London Overground (North/West London Lines): 5 minutes
+337,Willesden Junction,London Overground (between North and West London Lines): 3 minutes
+338,Wimbledon,District to South West Trains: 5 minutes
+339,Wimbledon,District to Tramlink: 4 minutes
+340,Wimbledon,South West Trains to Tramlink: 5 minutes
+341,Woodford,Connections between different branches: 3 minutes
+342,Woolwich Arsenal,DLR to Southeastern: 4 minutes
