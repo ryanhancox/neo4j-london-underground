@@ -1,0 +1,728 @@
+,Line,Direction,Station from (A),Station to (B),Distance (Kms),Un-impeded Running Time (Mins),AM peak (0700-1000) Running Time (Mins),Inter peak (1000 - 1600) Running time (mins)
+0,Bakerloo,Southbound,Harrow & Wealdstone,Kenton,1.74,2.23,2.5,2.5
+1,Bakerloo,Southbound,Kenton,South Kenton,1.4,1.88,2.0,2.0
+2,Bakerloo,Southbound,South Kenton,North Wembley,0.9,1.5,1.5,1.5
+3,Bakerloo,Southbound,North Wembley,Wembley Central,1.27,1.92,2.06,2.06
+4,Bakerloo,Southbound,Wembley Central,Stonebridge Park,1.71,2.23,3.13,3.13
+5,Bakerloo,Southbound,Stonebridge Park,Harlesden,1.53,2.13,2.4,2.4
+6,Bakerloo,Southbound,Harlesden,Willesden Junction,1.05,1.65,2.23,2.23
+7,Bakerloo,Southbound,Willesden Junction,Kensal Green,1.5,2.47,2.5,2.5
+8,Bakerloo,Southbound,Kensal Green,Queens Park,1.32,2.65,4.72,4.72
+9,Bakerloo,Southbound,Queens Park,Kilburn Park,0.79,1.42,1.5,1.5
+10,Bakerloo,Southbound,Kilburn Park,Maida Vale,0.88,1.48,2.0,2.0
+11,Bakerloo,Southbound,Maida Vale,Warwick Avenue,0.79,1.5,1.5,1.5
+12,Bakerloo,Southbound,Warwick Avenue,Paddington,0.88,1.58,2.0,2.0
+13,Bakerloo,Southbound,Paddington,Edgware Road,0.72,1.57,1.5,1.5
+14,Bakerloo,Southbound,Edgware Road,Marylebone,0.45,1.12,1.5,1.5
+15,Bakerloo,Southbound,Marylebone,Baker Street,0.5,1.17,1.5,1.5
+16,Bakerloo,Southbound,Baker Street,Regents Park,0.88,1.68,2.0,2.0
+17,Bakerloo,Southbound,Regents Park,Oxford Circus,0.87,1.85,2.0,2.0
+18,Bakerloo,Southbound,Oxford Circus,Piccadilly Circus,0.97,1.95,2.48,2.48
+19,Bakerloo,Southbound,Piccadilly Circus,Charing Cross,0.55,1.35,1.5,1.5
+20,Bakerloo,Southbound,Charing Cross,Embankment,0.37,0.95,1.5,1.5
+21,Bakerloo,Southbound,Embankment,Waterloo,0.71,1.43,1.5,1.5
+22,Bakerloo,Southbound,Waterloo,Lambeth North,0.63,1.45,2.0,2.0
+23,Bakerloo,Southbound,Lambeth North,Elephant & Castle,0.82,2.57,2.5,2.5
+24,Bakerloo,Northbound,Elephant & Castle,Lambeth North,0.82,2.13,2.0,2.0
+25,Bakerloo,Northbound,Lambeth North,Waterloo,0.63,1.45,2.06,2.06
+26,Bakerloo,Northbound,Waterloo,Embankment,0.71,1.22,1.5,1.5
+27,Bakerloo,Northbound,Embankment,Charing Cross,0.37,0.97,1.0,1.0
+28,Bakerloo,Northbound,Charing Cross,Piccadilly Circus,0.55,1.6,2.0,2.0
+29,Bakerloo,Northbound,Piccadilly Circus,Oxford Circus,0.97,2.02,2.19,2.19
+30,Bakerloo,Northbound,Oxford Circus,Regents Park,0.87,1.72,2.0,2.0
+31,Bakerloo,Northbound,Regents Park,Baker Street,0.88,1.65,2.0,2.0
+32,Bakerloo,Northbound,Baker Street,Marylebone,0.5,1.08,1.5,1.5
+33,Bakerloo,Northbound,Marylebone,Edgware Road,0.45,1.08,1.0,1.0
+34,Bakerloo,Northbound,Edgware Road,Paddington,0.72,1.62,2.0,2.0
+35,Bakerloo,Northbound,Paddington,Warwick Avenue,0.88,1.63,2.0,2.0
+36,Bakerloo,Northbound,Warwick Avenue,Maida Vale,0.79,1.5,1.5,1.5
+37,Bakerloo,Northbound,Maida Vale,Kilburn Park,0.88,1.48,1.5,1.5
+38,Bakerloo,Northbound,Kilburn Park,Queens Park,0.79,2.1,2.89,2.89
+39,Bakerloo,Northbound,Queens Park,Kensal Green,1.32,2.83,2.72,2.72
+40,Bakerloo,Northbound,Kensal Green,Willesden Junction,1.5,2.53,3.15,3.15
+41,Bakerloo,Northbound,Willesden Junction,Harlesden,1.05,1.63,2.0,2.0
+42,Bakerloo,Northbound,Harlesden,Stonebridge Park,1.53,2.02,2.53,2.53
+43,Bakerloo,Northbound,Stonebridge Park,Wembley Central,1.71,2.42,3.17,3.17
+44,Bakerloo,Northbound,Wembley Central,North Wembley,1.27,1.95,2.0,2.0
+45,Bakerloo,Northbound,North Wembley,South Kenton,0.9,1.58,1.5,1.5
+46,Bakerloo,Northbound,South Kenton,Kenton,1.4,2.0,2.0,2.0
+47,Bakerloo,Northbound,Kenton,Harrow & Wealdstone,1.74,2.38,3.0,3.0
+48,Central,Eastbound,West Ruislip,Ruislip Gardens,2.04,2.28,2.57,2.5
+49,Central,Eastbound,Ruislip Gardens,South Ruislip,0.86,1.3,1.5,1.5
+50,Central,Eastbound,South Ruislip,Northolt,2.28,2.23,2.58,2.5
+51,Central,Eastbound,Northolt,Greenford,1.78,1.93,2.0,2.0
+52,Central,Eastbound,Greenford,Perivale,1.69,1.85,2.33,2.25
+53,Central,Eastbound,Perivale,Hanger Lane,2.1,2.1,2.25,2.26
+54,Central,Eastbound,Hanger Lane,North Acton,2.49,2.85,3.44,3.48
+55,Central,Eastbound,Ealing Broadway,West Acton,1.53,2.28,2.25,2.25
+56,Central,Eastbound,West Acton,North Acton,1.77,2.3,2.86,3.26
+57,Central,Eastbound,North Acton,East Acton,1.11,1.5,1.75,1.75
+58,Central,Eastbound,East Acton,White City,2.06,2.57,3.28,3.71
+59,Central,Eastbound,White City,Shepherds Bush,1.16,2.68,2.75,2.75
+60,Central,Eastbound,Shepherds Bush,Holland Park,0.87,1.37,1.75,1.75
+61,Central,Eastbound,Holland Park,Notting Hill Gate,0.61,1.08,1.5,1.5
+62,Central,Eastbound,Notting Hill Gate,Queensway,0.69,1.17,1.5,1.5
+63,Central,Eastbound,Queensway,Lancaster Gate,0.9,1.35,1.5,1.5
+64,Central,Eastbound,Lancaster Gate,Marble Arch,1.2,1.92,2.71,2.5
+65,Central,Eastbound,Marble Arch,Bond Street,0.55,1.0,1.25,1.25
+66,Central,Eastbound,Bond Street,Oxford Circus,0.66,1.1,1.5,1.5
+67,Central,Eastbound,Oxford Circus,Tottenham Court Road,0.58,0.98,1.5,1.5
+68,Central,Eastbound,Tottenham Court Road,Holborn,0.88,1.63,2.21,2.01
+69,Central,Eastbound,Holborn,Chancery Lane,0.4,0.87,1.0,1.0
+70,Central,Eastbound,Chancery Lane,St Pauls,1.03,1.52,2.0,2.0
+71,Central,Eastbound,St Pauls,Bank,0.74,1.62,2.0,2.0
+72,Central,Eastbound,Bank,Liverpool Street,0.74,1.62,2.25,2.25
+73,Central,Eastbound,Liverpool Street,Bethnal Green,2.27,2.6,2.75,2.75
+74,Central,Eastbound,Bethnal Green,Mile End,1.64,1.98,2.25,2.25
+75,Central,Eastbound,Mile End,Stratford,2.83,3.18,3.42,3.25
+76,Central,Eastbound,Stratford,Leyton,2.09,2.4,2.75,2.75
+77,Central,Eastbound,Leyton,Leytonstone,1.62,2.02,2.81,2.76
+78,Central,Eastbound,Leytonstone,Wanstead,1.72,2.15,2.25,2.25
+79,Central,Eastbound,Wanstead,Redbridge,1.22,1.62,2.0,2.0
+80,Central,Eastbound,Redbridge,Gants Hill,1.27,1.65,1.75,1.75
+81,Central,Eastbound,Gants Hill,Newbury Park,2.36,2.68,3.06,2.98
+82,Central,Eastbound,Newbury Park,Barkingside,1.11,1.55,1.75,1.75
+83,Central,Eastbound,Barkingside,Fairlop,1.22,1.57,1.84,1.79
+84,Central,Eastbound,Fairlop,Hainault,0.75,2.93,3.89,4.12
+85,Central,Eastbound,Leytonstone,Snaresbrook,1.57,1.8,2.25,2.25
+86,Central,Eastbound,Snaresbrook,South Woodford,1.29,1.62,1.75,1.75
+87,Central,Eastbound,South Woodford,Woodford,1.8,1.9,2.34,2.26
+88,Central,Inner,Roding Valley,Woodford,1.33,2.03,2.78,2.22
+89,Central,Inner,Chigwell,Roding Valley,2.28,2.45,2.77,2.5
+90,Central,Inner,Grange Hill,Chigwell,1.32,1.63,2.0,2.0
+91,Central,Inner,Hainault,Grange Hill,1.12,1.73,1.89,1.79
+92,Central,Eastbound,Woodford,Buckhurst Hill,2.31,2.28,2.5,2.5
+93,Central,Eastbound,Buckhurst Hill,Loughton,1.83,2.35,2.7,2.53
+94,Central,Eastbound,Loughton,Debden,2.02,2.13,2.22,2.25
+95,Central,Eastbound,Debden,Theydon Bois,3.34,3.0,3.0,3.0
+96,Central,Eastbound,Theydon Bois,Epping,2.54,2.6,2.76,2.75
+97,Central,Westbound,Epping,Theydon Bois,2.54,2.37,2.5,2.5
+98,Central,Westbound,Theydon Bois,Debden,3.34,2.88,3.43,3.25
+99,Central,Westbound,Debden,Loughton,2.02,2.67,2.97,3.4
+100,Central,Westbound,Loughton,Buckhurst Hill,1.83,2.07,2.53,2.5
+101,Central,Westbound,Buckhurst Hill,Woodford,2.31,2.32,2.53,2.53
+102,Central,Outer,Grange Hill,Hainault,1.12,1.7,5.28,4.32
+103,Central,Outer,Chigwell,Grange Hill,1.32,1.73,2.61,2.11
+104,Central,Outer,Roding Valley,Chigwell,2.28,2.13,2.25,2.25
+105,Central,Outer,Woodford,Roding Valley,1.33,2.18,2.53,2.5
+106,Central,Westbound,Woodford,South Woodford,1.8,1.95,2.25,2.25
+107,Central,Westbound,South Woodford,Snaresbrook,1.29,1.6,1.75,1.75
+108,Central,Westbound,Snaresbrook,Leytonstone,1.57,2.05,3.46,3.33
+109,Central,Westbound,Hainault,Fairlop,0.75,1.82,2.0,2.0
+110,Central,Westbound,Fairlop,Barkingside,1.22,1.57,1.75,1.75
+111,Central,Westbound,Barkingside,Newbury Park,1.11,1.58,2.25,2.35
+112,Central,Westbound,Newbury Park,Gants Hill,2.36,2.73,3.0,3.0
+113,Central,Westbound,Gants Hill,Redbridge,1.27,1.7,2.0,2.0
+114,Central,Westbound,Redbridge,Wanstead,1.22,1.58,1.75,1.75
+115,Central,Westbound,Wanstead,Leytonstone,1.72,2.17,3.05,3.64
+116,Central,Westbound,Leytonstone,Leyton,1.62,2.02,2.25,2.25
+117,Central,Westbound,Leyton,Stratford,2.09,2.43,2.96,2.75
+118,Central,Westbound,Stratford,Mile End,2.83,3.03,3.0,3.0
+119,Central,Westbound,Mile End,Bethnal Green,1.64,1.97,2.47,2.25
+120,Central,Westbound,Bethnal Green,Liverpool Street,2.27,2.77,3.48,3.25
+121,Central,Westbound,Liverpool Street,Bank,0.74,1.65,2.0,2.0
+122,Central,Westbound,Bank,St Pauls,0.74,1.63,2.0,2.0
+123,Central,Westbound,St Pauls,Chancery Lane,1.03,1.52,1.75,1.75
+124,Central,Westbound,Chancery Lane,Holborn,0.4,0.85,1.46,1.25
+125,Central,Westbound,Holborn,Tottenham Court Road,0.88,1.38,1.75,1.75
+126,Central,Westbound,Tottenham Court Road,Oxford Circus,0.58,1.02,1.5,1.5
+127,Central,Westbound,Oxford Circus,Bond Street,0.66,1.03,1.25,1.25
+128,Central,Westbound,Bond Street,Marble Arch,0.55,1.02,1.66,1.5
+129,Central,Westbound,Marble Arch,Lancaster Gate,1.2,1.62,2.0,2.0
+130,Central,Westbound,Lancaster Gate,Queensway,0.9,1.65,1.75,1.75
+131,Central,Westbound,Queensway,Notting Hill Gate,0.69,1.18,1.5,1.5
+132,Central,Westbound,Notting Hill Gate,Holland Park,0.61,1.18,1.5,1.5
+133,Central,Westbound,Holland Park,Shepherds Bush,0.87,1.52,1.75,1.75
+134,Central,Westbound,Shepherds Bush,White City,1.16,2.77,3.74,3.97
+135,Central,Westbound,White City,East Acton,2.06,2.67,3.0,3.0
+136,Central,Westbound,East Acton,North Acton,1.11,1.57,2.12,2.54
+137,Central,Westbound,North Acton,West Acton,1.77,2.52,2.85,2.76
+138,Central,Westbound,West Acton,Ealing Broadway,1.53,3.07,2.76,2.82
+139,Central,Westbound,North Acton,Hanger Lane,2.49,2.87,3.15,3.0
+140,Central,Westbound,Hanger Lane,Perivale,2.1,2.07,2.28,2.25
+141,Central,Westbound,Perivale,Greenford,1.69,2.0,2.27,2.25
+142,Central,Westbound,Greenford,Northolt,1.78,2.15,2.37,2.28
+143,Central,Westbound,Northolt,South Ruislip,2.28,2.25,2.52,2.5
+144,Central,Westbound,South Ruislip,Ruislip Gardens,0.86,1.37,2.09,1.54
+145,Central,Westbound,Ruislip Gardens,West Ruislip,2.04,2.68,2.86,2.75
+146,Victoria,Southbound,Walthamstow Central,Blackhorse Road,1.45,2.12,2.0,2.0
+147,Victoria,Southbound,Blackhorse Road,Tottenham Hale,1.37,1.9,2.36,2.0
+148,Victoria,Southbound,Tottenham Hale,Seven Sisters,1.05,2.0,2.77,3.28
+149,Victoria,Southbound,Seven Sisters,Finsbury Park,3.15,3.77,4.0,4.0
+150,Victoria,Southbound,Finsbury Park,Highbury & Islington,1.93,2.9,2.89,2.55
+151,Victoria,Southbound,Highbury & Islington,Kings Cross,2.45,2.77,3.5,3.5
+152,Victoria,Southbound,Kings Cross,Euston,0.74,1.32,1.92,1.5
+153,Victoria,Southbound,Euston,Warren Street,0.76,1.3,1.5,1.5
+154,Victoria,Southbound,Warren Street,Oxford Circus,0.9,1.72,2.44,2.0
+155,Victoria,Southbound,Oxford Circus,Green Park,1.14,1.78,2.0,2.04
+156,Victoria,Southbound,Green Park,Victoria,1.09,1.88,2.5,2.54
+157,Victoria,Southbound,Victoria,Pimlico,1.19,1.83,2.0,2.0
+158,Victoria,Southbound,Pimlico,Vauxhall,0.8,1.4,1.5,1.54
+159,Victoria,Southbound,Vauxhall,Stockwell,1.77,2.3,2.94,2.52
+160,Victoria,Southbound,Stockwell,Brixton,1.46,2.03,2.5,2.5
+161,Victoria,Northbound,Brixton,Stockwell,1.46,2.18,2.45,2.0
+162,Victoria,Northbound,Stockwell,Vauxhall,1.77,2.23,2.5,2.5
+163,Victoria,Northbound,Vauxhall,Pimlico,0.8,1.37,1.5,1.5
+164,Victoria,Northbound,Pimlico,Victoria,1.19,2.18,2.97,2.51
+165,Victoria,Northbound,Victoria,Green Park,1.09,1.95,2.0,2.0
+166,Victoria,Northbound,Green Park,Oxford Circus,1.14,1.97,2.47,2.02
+167,Victoria,Northbound,Oxford Circus,Warren Street,0.9,1.53,2.48,2.04
+168,Victoria,Northbound,Warren Street,Euston,0.76,1.32,1.5,1.5
+169,Victoria,Northbound,Euston,Kings Cross,0.74,1.35,2.0,2.0
+170,Victoria,Northbound,Kings Cross,Highbury & Islington,2.45,2.87,3.0,3.0
+171,Victoria,Northbound,Highbury & Islington,Finsbury Park,1.93,2.4,2.97,2.56
+172,Victoria,Northbound,Finsbury Park,Seven Sisters,3.15,4.25,5.34,5.76
+173,Victoria,Northbound,Seven Sisters,Tottenham Hale,1.05,1.6,1.5,1.5
+174,Victoria,Northbound,Tottenham Hale,Blackhorse Road,1.37,1.97,2.5,2.5
+175,Victoria,Northbound,Blackhorse Road,Walthamstow Central,1.45,2.12,2.04,2.01
+176,Waterloo & City,Eastbound,Waterloo,Bank,2.37,4.87,4.0,4.0
+177,Waterloo & City,Westbound,Bank,Waterloo,2.37,4.2,3.75,3.75
+178,Jubilee,Eastbound,Stanmore,Canons Park,1.27,1.95,2.0,2.0
+179,Jubilee,Eastbound,Canons Park,Queensbury,1.71,1.93,2.5,2.5
+180,Jubilee,Eastbound,Queensbury,Kingsbury,1.33,1.72,2.0,2.0
+181,Jubilee,Eastbound,Kingsbury,Wembley Park,2.85,3.47,4.73,4.56
+182,Jubilee,Eastbound,Wembley Park,Neasden,2.28,2.6,3.03,3.01
+183,Jubilee,Eastbound,Neasden,Dollis Hill,0.85,1.43,1.5,1.5
+184,Jubilee,Eastbound,Dollis Hill,Willesden Green,1.21,1.8,2.11,2.14
+185,Jubilee,Eastbound,Willesden Green,Kilburn,1.19,1.68,2.0,2.0
+186,Jubilee,Eastbound,Kilburn,West Hampstead,1.09,1.63,2.5,2.0
+187,Jubilee,Eastbound,West Hampstead,Finchley Road,0.61,1.25,1.5,1.5
+188,Jubilee,Eastbound,Finchley Road,Swiss Cottage,0.61,1.18,1.5,1.5
+189,Jubilee,Eastbound,Swiss Cottage,St Johns Wood,0.92,1.52,2.0,2.0
+190,Jubilee,Eastbound,St Johns Wood,Baker Street,2.06,2.77,3.5,3.5
+191,Jubilee,Eastbound,Baker Street,Bond Street,1.66,2.1,2.5,2.5
+192,Jubilee,Eastbound,Bond Street,Green Park,1.37,1.78,2.5,2.5
+193,Jubilee,Eastbound,Green Park,Westminster,1.34,1.87,2.5,2.5
+194,Jubilee,Eastbound,Westminster,Waterloo,0.96,1.38,2.0,2.0
+195,Jubilee,Eastbound,Waterloo,Southwark,0.44,1.02,1.0,1.0
+196,Jubilee,Eastbound,Southwark,London Bridge,1.26,1.65,2.5,2.5
+197,Jubilee,Eastbound,London Bridge,Bermondsey,1.93,2.25,2.5,2.5
+198,Jubilee,Eastbound,Bermondsey,Canada Water,1.06,1.48,2.0,2.0
+199,Jubilee,Eastbound,Canada Water,Canary Wharf,2.41,2.5,3.0,3.02
+200,Jubilee,Eastbound,Canary Wharf,North Greenwich,1.71,2.23,3.19,3.49
+201,Jubilee,Eastbound,North Greenwich,Canning Town,1.71,2.15,2.5,2.5
+202,Jubilee,Eastbound,Canning Town,West Ham,1.58,2.15,2.93,2.58
+203,Jubilee,Eastbound,West Ham,Stratford,1.54,3.15,4.9,3.77
+204,Jubilee,Westbound,Stratford,West Ham,1.54,2.42,3.5,3.12
+205,Jubilee,Westbound,West Ham,Canning Town,1.58,2.13,2.5,2.5
+206,Jubilee,Westbound,Canning Town,North Greenwich,1.71,2.17,3.07,2.99
+207,Jubilee,Westbound,North Greenwich,Canary Wharf,1.71,1.98,2.55,2.5
+208,Jubilee,Westbound,Canary Wharf,Canada Water,2.41,2.63,3.0,3.0
+209,Jubilee,Westbound,Canada Water,Bermondsey,1.06,1.52,2.0,2.0
+210,Jubilee,Westbound,Bermondsey,London Bridge,1.93,2.17,2.5,2.5
+211,Jubilee,Westbound,London Bridge,Southwark,1.26,1.77,2.0,2.0
+212,Jubilee,Westbound,Southwark,Waterloo,0.44,0.97,1.5,1.5
+213,Jubilee,Westbound,Waterloo,Westminster,0.96,1.43,2.44,2.01
+214,Jubilee,Westbound,Westminster,Green Park,1.34,1.82,2.0,2.01
+215,Jubilee,Westbound,Green Park,Bond Street,1.37,1.82,2.5,2.5
+216,Jubilee,Westbound,Bond Street,Baker Street,1.66,2.28,2.5,2.5
+217,Jubilee,Westbound,Baker Street,St Johns Wood,2.06,2.85,3.5,3.5
+218,Jubilee,Westbound,St Johns Wood,Swiss Cottage,0.92,1.52,1.5,1.5
+219,Jubilee,Westbound,Swiss Cottage,Finchley Road,0.61,1.18,2.0,2.0
+220,Jubilee,Westbound,Finchley Road,West Hampstead,0.61,1.2,1.5,1.51
+221,Jubilee,Westbound,West Hampstead,Kilburn,1.09,1.55,2.0,2.0
+222,Jubilee,Westbound,Kilburn,Willesden Green,1.19,2.07,2.32,2.22
+223,Jubilee,Westbound,Willesden Green,Dollis Hill,1.21,1.67,2.0,2.0
+224,Jubilee,Westbound,Dollis Hill,Neasden,0.85,1.38,1.62,1.5
+225,Jubilee,Westbound,Neasden,Wembley Park,2.28,2.65,3.76,3.53
+226,Jubilee,Westbound,Wembley Park,Kingsbury,2.85,3.47,4.0,4.0
+227,Jubilee,Westbound,Kingsbury,Queensbury,1.33,1.85,2.0,2.0
+228,Jubilee,Westbound,Queensbury,Canons Park,1.71,2.23,2.5,2.5
+229,Jubilee,Westbound,Canons Park,Stanmore,1.27,2.87,3.24,3.09
+230,Northern,Southbound,Edgware,Burnt Oak,1.47,2.43,2.5,2.5
+231,Northern,Southbound,Burnt Oak,Colindale,1.31,1.98,2.5,2.5
+232,Northern,Southbound,Colindale,Hendon Central,2.1,2.83,3.0,3.0
+233,Northern,Southbound,Hendon Central,Brent Cross,1.1,1.73,2.0,2.0
+234,Northern,Southbound,Brent Cross,Golders Green,1.55,2.57,3.03,3.64
+235,Northern,Southbound,Golders Green,Hampstead,2.34,3.42,3.5,3.5
+236,Northern,Southbound,Hampstead,Belsize Park,1.2,1.82,2.0,2.0
+237,Northern,Southbound,Belsize Park,Chalk Farm,1.1,1.77,2.0,2.0
+238,Northern,Southbound,Chalk Farm,Camden Town,0.85,1.53,2.62,2.56
+239,Northern,Southbound,High Barnet,Totteridge & Whetstone,2.46,3.67,3.5,3.5
+240,Northern,Southbound,Totteridge & Whetstone,Woodside Park,1.5,2.23,2.5,2.5
+241,Northern,Southbound,Woodside Park,West Finchley,0.98,1.7,1.5,1.5
+242,Northern,Southbound,West Finchley,Finchley Central,1.14,2.08,3.13,2.51
+243,Northern,Southbound,Mill Hill East,Finchley Central,1.52,2.75,3.27,3.0
+244,Northern,Southbound,Finchley Central,East Finchley,2.42,3.37,3.5,3.5
+245,Northern,Southbound,East Finchley,Highgate,1.63,3.0,3.0,3.0
+246,Northern,Southbound,Highgate,Archway,1.7,2.8,3.0,3.0
+247,Northern,Southbound,Archway,Tufnell Park,0.88,1.6,1.5,1.5
+248,Northern,Southbound,Tufnell Park,Kentish Town,0.8,1.42,1.5,1.5
+249,Northern,Southbound,Kentish Town,Camden Town,1.15,1.93,3.08,3.08
+250,Northern,Southbound,Camden Town,Mornington Crescent,0.64,1.63,1.5,1.5
+251,Northern,Southbound,Mornington Crescent,Euston,0.82,1.52,2.0,2.0
+252,Northern,Southbound,Euston,Warren Street,0.58,1.18,1.5,1.5
+253,Northern,Southbound,Warren Street,Goodge Street,0.46,1.07,1.5,1.5
+254,Northern,Southbound,Goodge Street,Tottenham Court Road,0.62,1.32,1.73,1.5
+255,Northern,Southbound,Tottenham Court Road,Leicester Square,0.4,0.98,1.0,1.0
+256,Northern,Southbound,Leicester Square,Charing Cross,0.46,1.2,1.99,1.5
+257,Northern,Southbound,Charing Cross,Embankment,0.27,0.8,1.0,1.0
+258,Northern,Southbound,Embankment,Waterloo,0.7,1.37,1.5,1.5
+259,Northern,Southbound,Waterloo,Kennington,1.89,2.97,3.96,3.4
+260,Northern,Southbound,Camden Town,Euston,1.71,2.95,3.5,3.55
+261,Northern,Southbound,Euston,Kings Cross,0.61,1.53,1.5,1.5
+262,Northern,Southbound,Kings Cross,Angel,1.38,2.18,2.5,2.5
+263,Northern,Southbound,Angel,Old Street,1.44,2.87,3.0,3.0
+264,Northern,Southbound,Old Street,Moorgate,0.69,1.37,2.0,1.51
+265,Northern,Southbound,Moorgate,Bank,0.82,1.9,2.0,2.0
+266,Northern,Southbound,Bank,London Bridge,0.69,1.55,2.25,2.0
+267,Northern,Southbound,London Bridge,Borough,0.67,1.45,1.5,1.5
+268,Northern,Southbound,Borough,Elephant & Castle,0.85,1.72,2.0,2.0
+269,Northern,Southbound,Elephant & Castle,Kennington,0.9,2.03,3.0,3.47
+270,Northern,Southbound,Kennington,Oval,0.82,1.58,2.0,2.0
+271,Northern,Southbound,Oval,Stockwell,1.36,2.2,2.5,2.5
+272,Northern,Southbound,Stockwell,Clapham North,0.82,1.55,1.5,1.5
+273,Northern,Southbound,Clapham North,Clapham Common,0.62,1.4,1.5,1.5
+274,Northern,Southbound,Clapham Common,Clapham South,1.25,2.0,2.5,2.5
+275,Northern,Southbound,Clapham South,Balham,1.15,1.88,2.0,2.0
+276,Northern,Southbound,Balham,Tooting Bec,0.98,1.67,2.0,2.0
+277,Northern,Southbound,Tooting Bec,Tooting Broadway,1.1,1.77,2.0,2.0
+278,Northern,Southbound,Tooting Broadway,Colliers Wood,1.2,1.98,2.0,2.0
+279,Northern,Southbound,Colliers Wood,South Wimbledon,1.14,1.88,2.0,2.0
+280,Northern,Southbound,South Wimbledon,Morden,1.46,2.95,3.55,3.56
+281,Northern,Northbound,Morden,South Wimbledon,1.46,2.35,2.5,2.5
+282,Northern,Northbound,South Wimbledon,Colliers Wood,1.14,1.85,2.0,2.0
+283,Northern,Northbound,Colliers Wood,Tooting Broadway,1.2,1.97,2.0,2.0
+284,Northern,Northbound,Tooting Broadway,Tooting Bec,1.1,1.88,2.0,2.0
+285,Northern,Northbound,Tooting Bec,Balham,0.98,1.65,2.0,2.0
+286,Northern,Northbound,Balham,Clapham South,1.15,1.8,2.0,2.0
+287,Northern,Northbound,Clapham South,Clapham Common,1.25,2.2,2.5,2.5
+288,Northern,Northbound,Clapham Common,Clapham North,0.62,1.32,1.76,1.5
+289,Northern,Northbound,Clapham North,Stockwell,0.82,1.72,2.49,2.0
+290,Northern,Northbound,Stockwell,Oval,1.36,2.03,2.5,2.5
+291,Northern,Northbound,Oval,Kennington,0.82,1.7,2.81,2.91
+292,Northern,Northbound,Kennington,Elephant & Castle,0.9,1.8,2.0,2.0
+293,Northern,Northbound,Elephant & Castle,Borough,0.85,1.75,2.0,2.0
+294,Northern,Northbound,Borough,London Bridge,0.67,1.4,1.5,1.5
+295,Northern,Northbound,London Bridge,Bank,0.69,1.53,2.34,2.0
+296,Northern,Northbound,Bank,Moorgate,0.82,1.77,2.5,2.01
+297,Northern,Northbound,Moorgate,Old Street,0.69,1.45,1.5,1.5
+298,Northern,Northbound,Old Street,Angel,1.44,2.43,2.5,2.5
+299,Northern,Northbound,Angel,Kings Cross,1.38,2.15,2.5,2.5
+300,Northern,Northbound,Kings Cross,Euston,0.61,1.33,1.68,1.52
+301,Northern,Northbound,Euston,Camden Town,1.71,3.88,4.42,4.02
+302,Northern,Northbound,Kennington,Waterloo,1.89,2.77,3.0,3.0
+303,Northern,Northbound,Waterloo,Embankment,0.7,1.4,2.0,2.0
+304,Northern,Northbound,Embankment,Charing Cross,0.27,0.87,1.26,1.0
+305,Northern,Northbound,Charing Cross,Leicester Square,0.46,1.17,1.5,1.5
+306,Northern,Northbound,Leicester Square,Tottenham Court Road,0.4,1.03,1.5,1.5
+307,Northern,Northbound,Tottenham Court Road,Goodge Street,0.62,1.28,1.5,1.5
+308,Northern,Northbound,Goodge Street,Warren Street,0.46,1.07,1.5,1.5
+309,Northern,Northbound,Warren Street,Euston,0.58,1.18,1.5,1.5
+310,Northern,Northbound,Euston,Mornington Crescent,0.82,1.53,1.51,1.5
+311,Northern,Northbound,Mornington Crescent,Camden Town,0.64,1.8,2.99,2.04
+312,Northern,Northbound,Camden Town,Kentish Town,1.15,1.95,2.0,2.0
+313,Northern,Northbound,Kentish Town,Tufnell Park,0.8,1.58,1.5,1.5
+314,Northern,Northbound,Tufnell Park,Archway,0.88,1.68,2.0,2.0
+315,Northern,Northbound,Archway,Highgate,1.7,2.75,3.0,3.0
+316,Northern,Northbound,Highgate,East Finchley,1.63,2.62,3.02,3.0
+317,Northern,Northbound,East Finchley,Finchley Central,2.42,3.1,4.28,4.26
+318,Northern,Northbound,Finchley Central,Mill Hill East,1.52,2.98,2.5,2.5
+319,Northern,Northbound,Finchley Central,West Finchley,1.14,2.1,2.0,2.0
+320,Northern,Northbound,West Finchley,Woodside Park,0.98,1.55,2.0,2.0
+321,Northern,Northbound,Woodside Park,Totteridge & Whetstone,1.5,2.23,2.5,2.5
+322,Northern,Northbound,Totteridge & Whetstone,High Barnet,2.46,4.62,4.83,4.5
+323,Northern,Northbound,Camden Town,Chalk Farm,0.85,1.55,1.5,1.5
+324,Northern,Northbound,Chalk Farm,Belsize Park,1.1,1.9,2.0,2.0
+325,Northern,Northbound,Belsize Park,Hampstead,1.2,2.02,2.5,2.5
+326,Northern,Northbound,Hampstead,Golders Green,2.34,3.95,4.97,5.36
+327,Northern,Northbound,Golders Green,Brent Cross,1.55,2.22,2.5,2.5
+328,Northern,Northbound,Brent Cross,Hendon Central,1.1,1.83,2.0,2.0
+329,Northern,Northbound,Hendon Central,Colindale,2.1,2.67,3.0,3.0
+330,Northern,Northbound,Colindale,Burnt Oak,1.31,2.07,2.0,2.0
+331,Northern,Northbound,Burnt Oak,Edgware,1.47,3.37,3.94,3.6
+332,Piccadilly,Eastbound,Uxbridge,Hillingdon,2.03,3.0,3.0,3.0
+333,Piccadilly,Eastbound,Hillingdon,Ickenham,1.08,1.6,2.0,2.0
+334,Piccadilly,Eastbound,Ickenham,Ruislip,1.85,2.3,2.5,2.5
+335,Piccadilly,Eastbound,Ruislip,Ruislip Manor,0.72,1.3,1.5,1.5
+336,Piccadilly,Eastbound,Ruislip Manor,Eastcote,1.14,1.67,2.0,2.0
+337,Piccadilly,Eastbound,Eastcote,Rayners Lane,1.72,2.23,3.35,3.95
+338,Piccadilly,Eastbound,Rayners Lane,South Harrow,1.89,2.58,3.74,4.46
+339,Piccadilly,Eastbound,South Harrow,Sudbury Hill,1.36,1.85,2.0,2.0
+340,Piccadilly,Eastbound,Sudbury Hill,Sudbury Town,1.65,2.03,2.5,2.5
+341,Piccadilly,Eastbound,Sudbury Town,Alperton,1.57,1.95,2.5,2.5
+342,Piccadilly,Eastbound,Alperton,Park Royal,1.97,2.2,2.5,2.5
+343,Piccadilly,Eastbound,Park Royal,North Ealing,1.06,1.52,2.5,2.03
+344,Piccadilly,Eastbound,North Ealing,Ealing Common,0.94,1.65,2.5,2.5
+345,Piccadilly,Eastbound,Ealing Common,Acton Town,1.03,1.83,3.04,3.45
+346,Piccadilly,Eastbound,Heathrow Terminals 1 2 3,Hatton Cross,2.15,2.63,4.43,4.08
+347,Piccadilly,Eastbound,Hatton Cross,Hounslow West,2.91,3.25,3.5,3.5
+348,Piccadilly,Eastbound,Hounslow West,Hounslow Central,1.46,1.98,2.5,2.5
+349,Piccadilly,Eastbound,Hounslow Central,Hounslow East,0.74,1.3,1.5,1.5
+350,Piccadilly,Eastbound,Hounslow East,Osterley,0.96,1.53,2.0,2.0
+351,Piccadilly,Eastbound,Osterley,Boston Manor,2.42,2.85,3.0,3.0
+352,Piccadilly,Eastbound,Boston Manor,Northfields,0.99,1.98,4.46,3.38
+353,Piccadilly,Eastbound,Northfields,South Ealing,0.38,0.98,1.5,1.5
+354,Piccadilly,Eastbound,South Ealing,Acton Town,2.2,2.93,4.11,4.28
+355,Piccadilly,Eastbound,Acton Town,Hammersmith,4.42,5.65,6.0,5.53
+356,Piccadilly,Eastbound,Hammersmith,Barons Court,0.68,1.38,2.0,2.0
+357,Piccadilly,Eastbound,Barons Court,Earls Court,1.62,2.55,3.0,3.0
+358,Piccadilly,Eastbound,Earls Court,Gloucester Road,0.78,1.37,1.5,1.5
+359,Piccadilly,Eastbound,Gloucester Road,South Kensington,0.7,1.28,1.5,1.5
+360,Piccadilly,Eastbound,South Kensington,Knightsbridge,1.22,2.48,3.0,3.0
+361,Piccadilly,Eastbound,Knightsbridge,Hyde Park Corner,0.51,1.1,1.5,1.5
+362,Piccadilly,Eastbound,Hyde Park Corner,Green Park,1.06,1.73,2.0,2.02
+363,Piccadilly,Eastbound,Green Park,Piccadilly Circus,0.56,1.1,1.5,1.5
+364,Piccadilly,Eastbound,Piccadilly Circus,Leicester Square,0.49,1.17,1.5,1.5
+365,Piccadilly,Eastbound,Leicester Square,Covent Garden,0.25,0.77,1.0,1.01
+366,Piccadilly,Eastbound,Covent Garden,Holborn,0.59,1.4,1.5,1.5
+367,Piccadilly,Eastbound,Holborn,Russell Square,0.72,1.55,2.0,2.0
+368,Piccadilly,Eastbound,Russell Square,Kings Cross,0.91,1.9,2.47,2.05
+369,Piccadilly,Eastbound,Kings Cross,Caledonian Road,1.96,2.88,3.5,3.5
+370,Piccadilly,Eastbound,Caledonian Road,Holloway Road,0.59,1.18,1.5,1.5
+371,Piccadilly,Eastbound,Holloway Road,Arsenal,0.74,1.28,1.5,1.5
+372,Piccadilly,Eastbound,Arsenal,Finsbury Park,0.69,1.38,1.5,1.5
+373,Piccadilly,Eastbound,Finsbury Park,Manor House,1.04,1.55,2.0,2.0
+374,Piccadilly,Eastbound,Manor House,Turnpike Lane,2.31,2.88,3.0,3.0
+375,Piccadilly,Eastbound,Turnpike Lane,Wood Green,0.98,1.57,2.0,2.02
+376,Piccadilly,Eastbound,Wood Green,Bounds Green,1.52,2.23,2.5,2.5
+377,Piccadilly,Eastbound,Bounds Green,Arnos Grove,1.25,2.58,3.62,3.91
+378,Piccadilly,Eastbound,Arnos Grove,Southgate,1.94,2.8,2.52,2.51
+379,Piccadilly,Eastbound,Southgate,Oakwood,1.86,2.48,3.9,3.51
+380,Piccadilly,Eastbound,Oakwood,Cockfosters,1.27,2.83,3.0,3.09
+381,Piccadilly,Westbound,Cockfosters,Oakwood,1.27,2.27,2.6,2.45
+382,Piccadilly,Westbound,Oakwood,Southgate,1.86,2.37,2.5,2.5
+383,Piccadilly,Westbound,Southgate,Arnos Grove,1.94,3.28,4.31,4.35
+384,Piccadilly,Westbound,Arnos Grove,Bounds Green,1.25,2.25,2.0,2.0
+385,Piccadilly,Westbound,Bounds Green,Wood Green,1.52,2.2,2.5,2.57
+386,Piccadilly,Westbound,Wood Green,Turnpike Lane,0.98,1.52,1.5,1.5
+387,Piccadilly,Westbound,Turnpike Lane,Manor House,2.31,2.87,3.0,3.0
+388,Piccadilly,Westbound,Manor House,Finsbury Park,1.04,1.67,2.49,2.0
+389,Piccadilly,Westbound,Finsbury Park,Arsenal,0.69,1.35,1.5,1.5
+390,Piccadilly,Westbound,Arsenal,Holloway Road,0.74,1.3,1.5,1.5
+391,Piccadilly,Westbound,Holloway Road,Caledonian Road,0.59,1.2,1.5,1.5
+392,Piccadilly,Westbound,Caledonian Road,Kings Cross,1.96,2.78,4.0,3.52
+393,Piccadilly,Westbound,Kings Cross,Russell Square,0.91,1.67,2.0,2.0
+394,Piccadilly,Westbound,Russell Square,Holborn,0.72,1.37,1.5,1.5
+395,Piccadilly,Westbound,Holborn,Covent Garden,0.59,1.53,2.0,2.0
+396,Piccadilly,Westbound,Covent Garden,Leicester Square,0.25,0.77,1.0,1.0
+397,Piccadilly,Westbound,Leicester Square,Piccadilly Circus,0.49,1.07,1.5,1.5
+398,Piccadilly,Westbound,Piccadilly Circus,Green Park,0.56,1.18,1.5,1.5
+399,Piccadilly,Westbound,Green Park,Hyde Park Corner,1.06,1.73,2.48,2.02
+400,Piccadilly,Westbound,Hyde Park Corner,Knightsbridge,0.51,1.12,1.5,1.5
+401,Piccadilly,Westbound,Knightsbridge,South Kensington,1.22,2.23,2.5,2.5
+402,Piccadilly,Westbound,South Kensington,Gloucester Road,0.7,1.37,1.5,1.5
+403,Piccadilly,Westbound,Gloucester Road,Earls Court,0.78,1.37,1.5,1.5
+404,Piccadilly,Westbound,Earls Court,Barons Court,1.62,2.68,3.0,3.0
+405,Piccadilly,Westbound,Barons Court,Hammersmith,0.68,1.32,2.0,2.0
+406,Piccadilly,Westbound,Hammersmith,Acton Town,4.42,4.7,6.67,6.87
+407,Piccadilly,Westbound,Acton Town,South Ealing,2.2,2.8,3.08,3.02
+408,Piccadilly,Westbound,South Ealing,Northfields,0.38,0.95,2.87,1.98
+409,Piccadilly,Westbound,Northfields,Boston Manor,0.99,1.55,2.0,2.0
+410,Piccadilly,Westbound,Boston Manor,Osterley,2.42,2.85,3.0,3.0
+411,Piccadilly,Westbound,Osterley,Hounslow East,0.96,1.52,2.0,2.0
+412,Piccadilly,Westbound,Hounslow East,Hounslow Central,0.74,1.27,1.5,1.5
+413,Piccadilly,Westbound,Hounslow Central,Hounslow West,1.46,1.85,2.0,2.0
+414,Piccadilly,Westbound,Hounslow West,Hatton Cross,2.91,3.3,5.5,5.5
+415,Piccadilly,Westbound,Hatton Cross,Heathrow Terminal 4,1.83,2.1,2.5,2.5
+416,Piccadilly,Westbound,Heathrow Terminal 4,Heathrow Terminals 1 2 3,4.31,4.63,5.0,5.0
+417,Piccadilly,Westbound,Acton Town,Ealing Common,1.03,1.72,2.02,2.01
+418,Piccadilly,Westbound,Ealing Common,North Ealing,0.94,1.88,2.0,2.0
+419,Piccadilly,Westbound,North Ealing,Park Royal,1.06,1.67,2.0,2.0
+420,Piccadilly,Westbound,Park Royal,Alperton,1.97,2.37,2.5,2.5
+421,Piccadilly,Westbound,Alperton,Sudbury Town,1.57,2.03,2.5,2.5
+422,Piccadilly,Westbound,Sudbury Town,Sudbury Hill,1.65,2.25,2.5,2.5
+423,Piccadilly,Westbound,Sudbury Hill,South Harrow,1.36,2.05,3.91,2.75
+424,Piccadilly,Westbound,South Harrow,Rayners Lane,1.89,2.4,3.43,3.06
+425,Piccadilly,Westbound,Rayners Lane,Eastcote,1.72,2.2,2.5,2.5
+426,Piccadilly,Westbound,Eastcote,Ruislip Manor,1.14,1.73,2.0,2.0
+427,Piccadilly,Westbound,Ruislip Manor,Ruislip,0.72,1.27,1.95,1.5
+428,Piccadilly,Westbound,Ruislip,Ickenham,1.85,2.23,2.5,2.5
+429,Piccadilly,Westbound,Ickenham,Hillingdon,1.08,1.58,2.0,2.0
+430,Piccadilly,Westbound,Hillingdon,Uxbridge,2.03,3.7,3.92,3.5
+431,Metropolitan,Westbound,Aldgate,Liverpool Street,0.61,1.75,2.0,2.38
+432,Metropolitan,Westbound,Liverpool Street,Moorgate,0.51,1.32,1.5,1.5
+433,Metropolitan,Westbound,Moorgate,Barbican,0.63,1.38,1.5,1.5
+434,Metropolitan,Westbound,Barbican,Farringdon,0.51,1.2,1.95,1.5
+435,Metropolitan,Westbound,Farringdon,Kings Cross St Pancras,1.85,3.12,3.5,3.5
+436,Metropolitan,Westbound,Kings Cross St Pancras,Euston Square,0.85,1.65,2.0,2.0
+437,Metropolitan,Westbound,Euston Square,Great Portland Street,0.61,1.3,1.5,1.5
+438,Metropolitan,Westbound,Great Portland Street,Baker Street,0.92,2.23,4.08,3.82
+439,Metropolitan,Westbound,Baker Street,Finchley Road,3.38,5.55,5.55,5.51
+440,Metropolitan,Westbound,Finchley Road,Wembley Park,7.24,7.05,6.95,7.0
+441,Metropolitan,Westbound,Wembley Park,Preston Road,1.46,2.12,2.5,2.5
+442,Metropolitan,Westbound,Preston Road,Northwick Park,1.64,2.3,2.5,2.5
+443,Metropolitan,Westbound,Northwick Park,Harrow On The Hill,1.29,2.32,4.53,3.03
+444,Metropolitan,Westbound,Finchley Road,Harrow On The Hill,11.63,11.02,11.0,11.0
+445,Metropolitan,Westbound,Harrow On The Hill,West Harrow,1.26,2.32,2.0,2.0
+446,Metropolitan,Westbound,West Harrow,Rayners Lane,1.38,2.05,2.57,2.5
+447,Metropolitan,Westbound,Rayners Lane,Eastcote,1.72,2.23,2.52,2.5
+448,Metropolitan,Westbound,Eastcote,Ruislip Manor,1.14,1.82,2.02,2.0
+449,Metropolitan,Westbound,Ruislip Manor,Ruislip,0.72,1.35,1.52,1.5
+450,Metropolitan,Westbound,Ruislip,Ickenham,1.85,2.57,2.6,2.5
+451,Metropolitan,Westbound,Ickenham,Hillingdon,1.08,1.75,2.0,2.0
+452,Metropolitan,Westbound,Hillingdon,Uxbridge,2.03,4.08,4.02,3.54
+453,Metropolitan,Westbound,Harrow On The Hill,North Harrow,2.0,3.18,3.0,3.0
+454,Metropolitan,Westbound,North Harrow,Pinner,1.48,2.0,2.5,2.5
+455,Metropolitan,Westbound,Pinner,Northwood Hills,2.08,2.6,2.5,2.5
+456,Metropolitan,Westbound,Northwood Hills,Northwood,1.61,2.23,2.5,2.5
+457,Metropolitan,Westbound,Northwood,Moor Park,2.22,2.55,3.0,3.0
+458,Metropolitan,Westbound,Harrow On The Hill,Moor Park,9.39,9.03,9.5,9.5
+459,Metropolitan,Westbound,Moor Park,Croxley,2.94,4.33,4.5,4.5
+460,Metropolitan,Westbound,Croxley,Watford,1.9,3.6,3.6,3.5
+461,Metropolitan,Westbound,Moor Park,Rickmansworth,3.49,4.13,5.0,5.0
+462,Metropolitan,Westbound,Rickmansworth,Chorleywood,3.38,4.03,4.0,4.0
+463,Metropolitan,Westbound,Chorleywood,Chalfont & Latimer,3.43,3.95,4.68,4.5
+464,Metropolitan,Westbound,Chalfont & Latimer,Chesham,6.19,9.48,8.64,8.5
+465,Metropolitan,Westbound,Chalfont & Latimer,Amersham,3.27,4.07,4.0,4.0
+466,Metropolitan,Eastbound,Amersham,Chalfont & Latimer,3.27,3.65,4.0,4.0
+467,Metropolitan,Eastbound,Chesham,Chalfont & Latimer,6.19,9.63,9.0,8.5
+468,Metropolitan,Eastbound,Chalfont & Latimer,Chorleywood,3.43,3.68,4.0,4.0
+469,Metropolitan,Eastbound,Chorleywood,Rickmansworth,3.38,4.07,4.5,4.58
+470,Metropolitan,Eastbound,Rickmansworth,Moor Park,3.49,3.78,4.5,4.5
+471,Metropolitan,Eastbound,Watford,Croxley,1.9,3.22,3.0,3.0
+472,Metropolitan,Eastbound,Croxley,Moor Park,2.94,4.42,4.0,4.0
+473,Metropolitan,Eastbound,Moor Park,Northwood,2.22,2.87,3.0,3.0
+474,Metropolitan,Eastbound,Northwood,Northwood Hills,1.61,2.2,2.5,2.5
+475,Metropolitan,Eastbound,Northwood Hills,Pinner,2.08,2.48,2.5,2.5
+476,Metropolitan,Eastbound,Pinner,North Harrow,1.48,2.08,2.85,2.5
+477,Metropolitan,Eastbound,North Harrow,Harrow On The Hill,2.0,3.08,4.57,4.49
+478,Metropolitan,Eastbound,Moor Park,Harrow On The Hill,9.39,9.62,10.0,10.0
+479,Metropolitan,Eastbound,Uxbridge,Hillingdon,2.03,3.0,3.0,3.0
+480,Metropolitan,Eastbound,Hillingdon,Ickenham,1.08,1.73,2.0,2.0
+481,Metropolitan,Eastbound,Ickenham,Ruislip,1.85,2.45,2.5,2.5
+482,Metropolitan,Eastbound,Ruislip,Ruislip Manor,0.72,1.45,1.5,1.5
+483,Metropolitan,Eastbound,Ruislip Manor,Eastcote,1.14,1.82,2.0,2.0
+484,Metropolitan,Eastbound,Eastcote,Rayners Lane,1.72,2.33,3.0,3.0
+485,Metropolitan,Eastbound,Rayners Lane,West Harrow,1.38,2.08,2.0,2.0
+486,Metropolitan,Eastbound,West Harrow,Harrow On The Hill,1.26,2.15,3.85,4.0
+487,Metropolitan,Eastbound,Harrow On The Hill,Finchley Road,11.63,10.15,11.5,11.5
+488,Metropolitan,Eastbound,Harrow On The Hill,Northwick Park,1.29,1.9,2.0,2.0
+489,Metropolitan,Eastbound,Northwick Park,Preston Road,1.64,2.05,2.35,2.0
+490,Metropolitan,Eastbound,Preston Road,Wembley Park,1.46,1.98,2.55,2.53
+491,Metropolitan,Eastbound,Wembley Park,Finchley Road,7.24,7.0,7.32,7.52
+492,Metropolitan,Eastbound,Finchley Road,Baker Street,3.38,6.13,7.11,6.4
+493,Metropolitan,Eastbound,Baker Street,Great Portland Street,0.92,1.98,2.0,2.0
+494,Metropolitan,Eastbound,Great Portland Street,Euston Square,0.61,1.25,1.5,1.5
+495,Metropolitan,Eastbound,Euston Square,Kings Cross St Pancras,0.85,1.75,2.0,2.0
+496,Metropolitan,Eastbound,Kings Cross St Pancras,Farringdon,1.85,2.98,3.5,3.5
+497,Metropolitan,Eastbound,Farringdon,Barbican,0.51,1.22,1.5,1.5
+498,Metropolitan,Eastbound,Barbican,Moorgate,0.63,1.32,1.5,1.5
+499,Metropolitan,Eastbound,Moorgate,Liverpool Street,0.51,1.18,1.99,1.53
+500,Metropolitan,Eastbound,Liverpool Street,Aldgate,0.61,2.18,2.01,2.2
+501,Hammersmith & City,Eastbound,Hammersmith,Goldhawk Road,0.82,2.05,2.0,2.0
+502,Hammersmith & City,Eastbound,Goldhawk Road,Shepherds Bush,0.51,1.15,1.5,1.5
+503,Hammersmith & City,Eastbound,Shepherds Bush,Latimer Road,1.01,1.63,2.0,2.0
+504,Hammersmith & City,Eastbound,Latimer Road,Ladbroke Grove,0.66,1.37,1.5,1.5
+505,Hammersmith & City,Eastbound,Ladbroke Grove,Westbourne Park,0.79,1.48,1.5,1.5
+506,Hammersmith & City,Eastbound,Westbourne Park,Royal Oak,0.98,1.78,2.0,2.0
+507,Hammersmith & City,Eastbound,Royal Oak,Paddington,0.64,1.52,2.0,2.0
+508,Hammersmith & City,Eastbound,Paddington,Edgware Road,0.93,2.33,3.71,3.72
+509,Hammersmith & City,Eastbound,Edgware Road,Baker Street,0.72,1.47,2.84,2.5
+510,Hammersmith & City,Eastbound,Baker Street,Great Portland Street,0.92,1.9,2.0,2.0
+511,Hammersmith & City,Eastbound,Great Portland Street,Euston Square,0.61,1.25,1.5,1.5
+512,Hammersmith & City,Eastbound,Euston Square,Kings Cross St Pancras,0.85,1.75,2.0,2.0
+513,Hammersmith & City,Eastbound,Kings Cross St Pancras,Farringdon,1.85,2.98,3.5,3.5
+514,Hammersmith & City,Eastbound,Farringdon,Barbican,0.51,1.22,1.5,1.5
+515,Hammersmith & City,Eastbound,Barbican,Moorgate,0.64,1.32,1.53,1.5
+516,Hammersmith & City,Eastbound,Moorgate,Liverpool Street,0.51,1.18,1.95,1.51
+517,Hammersmith & City,Eastbound,Liverpool Street,Aldgate East,0.92,1.93,3.14,2.78
+518,Hammersmith & City,Eastbound,Aldgate East,Whitechapel,0.82,2.17,2.5,2.01
+519,Hammersmith & City,Eastbound,Whitechapel,Stepney Green,1.0,2.05,2.0,2.0
+520,Hammersmith & City,Eastbound,Stepney Green,Mile End,1.05,1.73,2.0,2.0
+521,Hammersmith & City,Eastbound,Mile End,Bow Road,0.55,1.27,1.5,1.5
+522,Hammersmith & City,Eastbound,Bow Road,Bromley By Bow,1.01,2.12,2.0,2.0
+523,Hammersmith & City,Eastbound,Bromley By Bow,West Ham,1.37,2.0,2.0,2.0
+524,Hammersmith & City,Eastbound,West Ham,Plaistow,0.76,1.43,2.26,2.04
+525,Hammersmith & City,Eastbound,Plaistow,Upton Park,1.29,1.97,2.0,2.0
+526,Hammersmith & City,Eastbound,Upton Park,East Ham,1.4,2.02,2.0,2.0
+527,Hammersmith & City,Eastbound,East Ham,Barking,2.29,3.78,3.6,3.49
+528,Hammersmith & City,Westbound,Barking,East Ham,2.29,2.87,3.0,3.0
+529,Hammersmith & City,Westbound,East Ham,Upton Park,1.4,2.0,2.5,2.5
+530,Hammersmith & City,Westbound,Upton Park,Plaistow,1.29,1.93,2.0,2.0
+531,Hammersmith & City,Westbound,Plaistow,West Ham,0.76,1.5,1.5,1.5
+532,Hammersmith & City,Westbound,West Ham,Bromley By Bow,1.37,2.12,2.0,2.0
+533,Hammersmith & City,Westbound,Bromley By Bow,Bow Road,1.01,2.23,2.5,2.5
+534,Hammersmith & City,Westbound,Bow Road,Mile End,0.55,1.27,1.5,1.5
+535,Hammersmith & City,Westbound,Mile End,Stepney Green,1.05,1.72,2.0,2.0
+536,Hammersmith & City,Westbound,Stepney Green,Whitechapel,1.0,2.63,3.48,2.56
+537,Hammersmith & City,Westbound,Whitechapel,Aldgate East,0.82,2.18,2.45,2.06
+538,Hammersmith & City,Westbound,Aldgate East,Liverpool Street,0.92,2.12,3.02,3.88
+539,Hammersmith & City,Westbound,Liverpool Street,Moorgate,0.51,1.32,1.5,1.5
+540,Hammersmith & City,Westbound,Moorgate,Barbican,0.64,1.38,1.5,1.5
+541,Hammersmith & City,Westbound,Barbican,Farringdon,0.51,1.2,1.92,1.51
+542,Hammersmith & City,Westbound,Farringdon,Kings Cross St Pancras,1.85,3.12,3.5,3.5
+543,Hammersmith & City,Westbound,Kings Cross St Pancras,Euston Square,0.85,1.65,2.0,2.0
+544,Hammersmith & City,Westbound,Euston Square,Great Portland Street,0.61,1.3,1.5,1.5
+545,Hammersmith & City,Westbound,Great Portland Street,Baker Street,0.92,1.57,2.9,2.07
+546,Hammersmith & City,Westbound,Baker Street,Edgware Road,0.72,1.88,3.6,3.08
+547,Hammersmith & City,Westbound,Edgware Road,Paddington,0.93,2.08,2.0,2.0
+548,Hammersmith & City,Westbound,Paddington,Royal Oak,0.64,1.33,1.5,1.5
+549,Hammersmith & City,Westbound,Royal Oak,Westbourne Park,0.98,1.72,2.0,2.0
+550,Hammersmith & City,Westbound,Westbourne Park,Ladbroke Grove,0.79,1.48,1.5,1.5
+551,Hammersmith & City,Westbound,Ladbroke Grove,Latimer Road,0.66,1.28,1.5,1.5
+552,Hammersmith & City,Westbound,Latimer Road,Shepherds Bush,1.01,1.7,2.0,2.0
+553,Hammersmith & City,Westbound,Shepherds Bush,Goldhawk Road,0.51,1.15,1.0,1.0
+554,Hammersmith & City,Westbound,Goldhawk Road,Hammersmith,0.82,2.43,3.07,3.03
+555,Circle,Inner,Edgware Road,Paddington,0.82,1.85,2.0,2.0
+556,Circle,Inner,Paddington,Bayswater,0.98,1.65,2.0,2.0
+557,Circle,Inner,Bayswater,Notting Hill Gate,0.79,1.47,2.0,2.0
+558,Circle,Inner,Notting Hill Gate,High Street Kensington,0.93,1.58,3.57,3.36
+559,Circle,Inner,High Street Kensington,Gloucester Road,0.93,1.8,2.66,2.9
+560,Circle,Inner,Gloucester Road,South Kensington,0.74,1.43,1.5,1.5
+561,Circle,Inner,South Kensington,Sloane Square,1.22,1.98,2.0,2.0
+562,Circle,Inner,Sloane Square,Victoria,1.05,1.8,2.0,2.0
+563,Circle,Inner,Victoria,St James Park,0.72,1.42,1.5,1.5
+564,Circle,Inner,St James Park,Westminster,0.76,1.5,2.0,2.0
+565,Circle,Inner,Westminster,Embankment,0.69,1.37,2.0,2.0
+566,Circle,Inner,Embankment,Temple,0.71,1.37,2.0,2.0
+567,Circle,Inner,Temple,Blackfriars,0.76,1.4,2.0,2.0
+568,Circle,Inner,Blackfriars,Mansion House,0.61,1.52,1.95,1.52
+569,Circle,Inner,Mansion House,Cannon Street,0.31,0.98,1.0,1.0
+570,Circle,Inner,Cannon Street,Monument,0.34,0.97,1.5,1.5
+571,Circle,Inner,Monument,Tower Hill,0.68,1.8,2.0,2.07
+572,Circle,Inner,Tower Hill,Aldgate,0.5,1.3,4.05,3.18
+573,Circle,Inner,Aldgate,Liverpool Street,0.61,1.75,2.0,2.42
+574,Circle,Inner,Liverpool Street,Moorgate,0.51,1.32,1.5,1.5
+575,Circle,Inner,Moorgate,Barbican,0.64,1.38,1.5,1.5
+576,Circle,Inner,Barbican,Farringdon,0.51,1.2,1.92,1.51
+577,Circle,Inner,Farringdon,Kings Cross St Pancras,1.85,3.12,3.5,3.5
+578,Circle,Inner,Kings Cross St Pancras,Euston Square,0.85,1.65,2.0,2.0
+579,Circle,Inner,Euston Square,Great Portland Street,0.61,1.3,1.5,1.5
+580,Circle,Inner,Great Portland Street,Baker Street,0.92,1.57,2.9,2.07
+581,Circle,Inner,Baker Street,Edgware Road,0.72,1.88,3.6,3.08
+582,Circle,Outer,Edgware Road,Baker Street,0.72,1.47,2.84,2.5
+583,Circle,Outer,Baker Street,Great Portland Street,0.92,1.9,2.0,2.0
+584,Circle,Outer,Great Portland Street,Euston Square,0.61,1.25,1.5,1.5
+585,Circle,Outer,Euston Square,Kings Cross St Pancras,0.85,1.75,2.0,2.0
+586,Circle,Outer,Kings Cross St Pancras,Farringdon,1.85,2.98,3.5,3.5
+587,Circle,Outer,Farringdon,Barbican,0.51,1.22,1.5,1.5
+588,Circle,Outer,Barbican,Moorgate,0.64,1.32,1.53,1.5
+589,Circle,Outer,Moorgate,Liverpool Street,0.51,1.18,1.95,1.51
+590,Circle,Outer,Liverpool Street,Aldgate,0.61,2.18,2.55,2.51
+591,Circle,Outer,Aldgate,Tower Hill,0.5,1.37,2.02,2.1
+592,Circle,Outer,Tower Hill,Monument,0.68,1.48,1.5,1.5
+593,Circle,Outer,Monument,Cannon Street,0.34,0.88,1.0,1.0
+594,Circle,Outer,Cannon Street,Mansion House,0.31,0.93,1.5,1.5
+595,Circle,Outer,Mansion House,Blackfriars,0.61,1.22,1.52,1.5
+596,Circle,Outer,Blackfriars,Temple,0.76,1.37,1.5,1.5
+597,Circle,Outer,Temple,Embankment,0.71,1.43,2.0,2.01
+598,Circle,Outer,Embankment,Westminster,0.69,1.4,1.5,1.5
+599,Circle,Outer,Westminster,St James Park,0.76,1.52,1.5,1.5
+600,Circle,Outer,St James Park,Victoria,0.72,1.33,2.0,2.0
+601,Circle,Outer,Victoria,Sloane Square,1.05,1.75,2.0,2.0
+602,Circle,Outer,Sloane Square,South Kensington,1.22,2.0,2.98,2.5
+603,Circle,Outer,South Kensington,Gloucester Road,0.74,1.48,2.02,2.54
+604,Circle,Outer,Gloucester Road,High Street Kensington,0.93,2.23,3.98,2.92
+605,Circle,Outer,High Street Kensington,Notting Hill Gate,0.93,1.68,2.0,2.0
+606,Circle,Outer,Notting Hill Gate,Bayswater,0.79,1.77,2.0,2.0
+607,Circle,Outer,Bayswater,Paddington,0.98,1.63,2.45,2.01
+608,Circle,Outer,Paddington,Edgware Road,0.82,2.15,3.71,3.72
+609,District,Westbound,Upminster,Upminster Bridge,1.24,2.08,2.0,2.03
+610,District,Westbound,Upminster Bridge,Hornchurch,1.26,1.78,2.0,2.0
+611,District,Westbound,Hornchurch,Elm Park,1.5,1.98,2.5,2.5
+612,District,Westbound,Elm Park,Dagenham East,2.37,2.77,3.07,3.18
+613,District,Westbound,Dagenham East,Dagenham Heathway,1.35,1.83,2.0,2.0
+614,District,Westbound,Dagenham Heathway,Becontree,1.37,1.88,2.5,2.5
+615,District,Westbound,Becontree,Upney,1.87,2.33,2.5,2.5
+616,District,Westbound,Upney,Barking,1.38,1.92,2.66,3.82
+617,District,Westbound,Barking,East Ham,2.29,2.87,3.0,3.0
+618,District,Westbound,East Ham,Upton Park,1.4,2.0,2.5,2.5
+619,District,Westbound,Upton Park,Plaistow,1.29,1.93,2.0,2.01
+620,District,Westbound,Plaistow,West Ham,0.76,1.5,1.5,1.5
+621,District,Westbound,West Ham,Bromley By Bow,1.37,2.12,2.0,2.0
+622,District,Westbound,Bromley By Bow,Bow Road,1.01,2.23,2.5,2.5
+623,District,Westbound,Bow Road,Mile End,0.55,1.27,1.5,1.5
+624,District,Westbound,Mile End,Stepney Green,1.05,1.72,2.0,2.0
+625,District,Westbound,Stepney Green,Whitechapel,1.0,2.63,3.54,3.51
+626,District,Westbound,Whitechapel,Aldgate East,0.82,2.18,2.46,2.05
+627,District,Westbound,Aldgate East,Tower Hill,0.8,1.87,3.03,3.65
+628,District,Westbound,Tower Hill,Monument,0.68,1.48,1.5,1.5
+629,District,Westbound,Monument,Cannon Street,0.34,0.88,1.0,1.0
+630,District,Westbound,Cannon Street,Mansion House,0.31,0.93,1.5,1.5
+631,District,Westbound,Mansion House,Blackfriars,0.61,1.22,1.5,1.5
+632,District,Westbound,Blackfriars,Temple,0.76,1.37,1.5,1.5
+633,District,Westbound,Temple,Embankment,0.71,1.43,2.0,2.0
+634,District,Westbound,Embankment,Westminster,0.69,1.4,1.5,1.5
+635,District,Westbound,Westminster,St James Park,0.76,1.52,1.5,1.5
+636,District,Westbound,St James Park,Victoria,0.72,1.33,2.0,2.0
+637,District,Westbound,Victoria,Sloane Square,1.05,1.75,2.0,2.0
+638,District,Westbound,Sloane Square,South Kensington,1.22,2.0,3.0,2.5
+639,District,Westbound,South Kensington,Gloucester Road,0.74,1.48,2.0,2.01
+640,District,Westbound,Gloucester Road,Earls Court,0.93,1.82,3.04,3.59
+641,District,Westbound,Edgware Road,Paddington,0.82,1.85,2.0,2.0
+642,District,Westbound,Paddington,Bayswater,0.98,1.65,2.0,2.0
+643,District,Westbound,Bayswater,Notting Hill Gate,0.79,1.47,2.0,2.0
+644,District,Westbound,Notting Hill Gate,High Street Kensington,0.93,1.58,3.28,3.36
+645,District,Westbound,High Street Kensington,Earls Court,1.26,2.72,4.11,3.82
+646,District,Westbound,Earls Court,Kensington,1.54,3.08,3.0,3.0
+647,District,Westbound,Earls Court,West Brompton,0.6,1.42,1.5,1.5
+648,District,Westbound,West Brompton,Fulham Broadway,0.84,1.55,1.5,1.5
+649,District,Westbound,Fulham Broadway,Parsons Green,0.79,1.5,2.0,2.0
+650,District,Westbound,Parsons Green,Putney Bridge,0.95,2.32,2.5,2.5
+651,District,Westbound,Putney Bridge,East Putney,1.11,2.18,2.0,2.0
+652,District,Westbound,East Putney,Southfields,1.53,2.35,2.5,2.5
+653,District,Westbound,Southfields,Wimbledon Park,1.45,2.05,2.5,2.51
+654,District,Westbound,Wimbledon Park,Wimbledon,1.5,3.5,3.02,3.08
+655,District,Westbound,Earls Court,West Kensington,0.9,1.62,2.0,2.0
+656,District,Westbound,West Kensington,Barons Court,0.64,1.32,1.5,1.5
+657,District,Westbound,Barons Court,Hammersmith,0.68,1.33,1.5,1.5
+658,District,Westbound,Hammersmith,Ravenscourt Park,0.93,1.63,2.0,2.0
+659,District,Westbound,Ravenscourt Park,Stamford Brook,0.77,1.37,1.5,1.5
+660,District,Westbound,Stamford Brook,Turnham Green,0.55,1.17,1.97,1.58
+661,District,Westbound,Turnham Green,Chiswick Park,0.95,1.58,2.0,2.0
+662,District,Westbound,Chiswick Park,Acton Town,1.22,1.83,2.63,2.06
+663,District,Westbound,Acton Town,Ealing Common,1.03,1.5,2.0,2.0
+664,District,Westbound,Ealing Common,Ealing Broadway,1.5,3.5,3.5,3.54
+665,District,Westbound,Turnham Green,Gunnersbury,1.59,2.28,3.15,3.0
+666,District,Westbound,Gunnersbury,Kew Gardens,1.71,2.43,2.5,2.5
+667,District,Westbound,Kew Gardens,Richmond,2.14,4.1,3.57,3.5
+668,District,Eastbound,Ealing Broadway,Ealing Common,1.5,2.67,3.0,3.0
+669,District,Eastbound,Ealing Common,Acton Town,1.03,1.9,3.26,2.96
+670,District,Eastbound,Acton Town,Chiswick Park,1.22,1.8,2.0,2.0
+671,District,Eastbound,Chiswick Park,Turnham Green,0.95,1.48,2.07,2.09
+672,District,Eastbound,Turnham Green,Stamford Brook,0.55,1.15,1.5,1.5
+673,District,Eastbound,Stamford Brook,Ravenscourt Park,0.77,1.4,1.5,1.5
+674,District,Eastbound,Ravenscourt Park,Hammersmith,0.93,1.85,2.0,2.0
+675,District,Eastbound,Hammersmith,Barons Court,0.68,1.43,2.0,2.0
+676,District,Eastbound,Barons Court,West Kensington,0.64,1.28,1.5,1.5
+677,District,Eastbound,West Kensington,Earls Court,0.9,2.17,2.63,3.3
+678,District,Eastbound,Richmond,Kew Gardens,2.14,3.1,3.02,3.0
+679,District,Eastbound,Kew Gardens,Gunnersbury,1.71,2.42,3.0,3.0
+680,District,Eastbound,Gunnersbury,Turnham Green,1.59,2.6,4.02,3.67
+681,District,Eastbound,Wimbledon,Wimbledon Park,1.5,2.82,3.0,3.0
+682,District,Eastbound,Wimbledon Park,Southfields,1.45,2.18,2.0,2.0
+683,District,Eastbound,Southfields,East Putney,1.53,2.37,2.5,2.5
+684,District,Eastbound,East Putney,Putney Bridge,1.11,1.85,2.0,2.0
+685,District,Eastbound,Putney Bridge,Parsons Green,0.95,1.92,2.0,2.0
+686,District,Eastbound,Parsons Green,Fulham Broadway,0.79,1.48,2.0,2.0
+687,District,Eastbound,Fulham Broadway,West Brompton,0.84,1.57,1.5,1.5
+688,District,Eastbound,West Brompton,Earls Court,0.6,1.42,3.44,3.24
+689,District,Eastbound,Kensington,Earls Court,1.54,2.73,3.65,3.94
+690,District,Eastbound,Earls Court,High Street Kensington,1.26,3.05,3.58,3.12
+691,District,Eastbound,High Street Kensington,Notting Hill Gate,0.93,1.68,2.0,2.0
+692,District,Eastbound,Notting Hill Gate,Bayswater,0.79,1.77,2.0,2.0
+693,District,Eastbound,Bayswater,Paddington,0.98,1.63,2.45,2.01
+694,District,Eastbound,Paddington,Edgware Road,0.82,2.15,2.5,2.5
+695,District,Eastbound,Earls Court,Gloucester Road,0.93,1.92,2.53,2.65
+696,District,Eastbound,Gloucester Road,South Kensington,0.74,1.43,1.5,1.5
+697,District,Eastbound,South Kensington,Sloane Square,1.22,1.98,2.0,2.0
+698,District,Eastbound,Sloane Square,Victoria,1.05,1.8,2.0,2.0
+699,District,Eastbound,Victoria,St James Park,0.72,1.42,1.5,1.5
+700,District,Eastbound,St James Park,Westminster,0.76,1.5,2.0,2.0
+701,District,Eastbound,Westminster,Embankment,0.69,1.37,2.0,2.0
+702,District,Eastbound,Embankment,Temple,0.71,1.37,2.0,2.0
+703,District,Eastbound,Temple,Blackfriars,0.76,1.4,2.0,2.0
+704,District,Eastbound,Blackfriars,Mansion House,0.61,1.52,1.98,1.52
+705,District,Eastbound,Mansion House,Cannon Street,0.31,0.98,1.0,1.0
+706,District,Eastbound,Cannon Street,Monument,0.34,0.97,1.5,1.5
+707,District,Eastbound,Monument,Tower Hill,0.68,1.8,2.08,2.43
+708,District,Eastbound,Tower Hill,Aldgate East,0.8,1.88,2.91,2.21
+709,District,Eastbound,Aldgate East,Whitechapel,0.82,2.17,2.72,2.76
+710,District,Eastbound,Whitechapel,Stepney Green,1.0,2.05,2.0,2.0
+711,District,Eastbound,Stepney Green,Mile End,1.05,1.73,2.0,2.0
+712,District,Eastbound,Mile End,Bow Road,0.55,1.27,1.51,1.5
+713,District,Eastbound,Bow Road,Bromley By Bow,1.01,2.12,2.0,2.0
+714,District,Eastbound,Bromley By Bow,West Ham,1.37,2.0,2.0,2.0
+715,District,Eastbound,West Ham,Plaistow,0.76,1.43,2.04,2.0
+716,District,Eastbound,Plaistow,Upton Park,1.29,1.97,2.0,2.0
+717,District,Eastbound,Upton Park,East Ham,1.4,2.02,2.0,2.0
+718,District,Eastbound,East Ham,Barking,2.29,3.78,3.9,4.06
+719,District,Eastbound,Barking,Upney,1.38,1.97,2.05,2.01
+720,District,Eastbound,Upney,Becontree,1.87,2.33,2.5,2.51
+721,District,Eastbound,Becontree,Dagenham Heathway,1.37,1.88,2.5,2.51
+722,District,Eastbound,Dagenham Heathway,Dagenham East,1.35,1.85,2.22,2.3
+723,District,Eastbound,Dagenham East,Elm Park,2.37,2.85,3.0,3.0
+724,District,Eastbound,Elm Park,Hornchurch,1.5,2.05,2.5,2.5
+725,District,Eastbound,Hornchurch,Upminster Bridge,1.26,1.77,2.0,2.0
+726,District,Eastbound,Upminster Bridge,Upminster,1.24,2.32,2.03,2.01

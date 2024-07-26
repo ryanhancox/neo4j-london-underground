@@ -23,3 +23,10 @@ def clean_station(x):
         station = station.replace(key, value)
     
     return station.title()
+
+
+def add_line_to_station(station, line):
+    """
+    Adds the line name in parentheses to the station name.
+    """
+    return f"{station} ({line})"
