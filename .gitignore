@@ -1,2 +1,6 @@
-.env
 __pycache__
+
+.env
+.pytest_cache
+
+neo4j_aura_config.txt
