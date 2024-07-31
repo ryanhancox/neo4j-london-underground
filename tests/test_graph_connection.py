@@ -1,5 +1,5 @@
 import pytest
-from src.neo4j_graph import Neo4jConnection
+from src.graph_connection import Neo4jConnection
 import os
 from dotenv import load_dotenv
 

@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
-from src.neo4j_graph import LondonUndergroundGraph
+from src.graph_connection import LondonUndergroundGraph
+from src.graph_data_science import GraphDataScience
 from src.utilities import load_csv_parse_to_dict, read_cypher_file
 
 if __name__ == "__main__":
@@ -28,8 +29,8 @@ if __name__ == "__main__":
     underground_graph.write_underground_data(connection_query, connections)
     underground_graph.write_underground_data(interchange_query, interchanges)
     
-    result = underground_graph.read_from_database("MATCH (s) RETURN s LIMIT 5")
-    print(result)
+    underground_graph.create_graph_projection('underground_test', 'Station', 'CONNECTED_TO')
+    underground_graph.drop_graph_projection('underground_test')
     
     # Close connection
     underground_graph.close()

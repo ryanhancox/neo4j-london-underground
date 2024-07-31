@@ -10,7 +10,6 @@ def read_cypher_file(file_path: str) -> str:
     """Read and return the contents of a cypher file."""
     with open(file_path, "r") as file:
         text: str = file.read()
-    
     return text
 
 

@@ -94,8 +94,47 @@ class LondonUndergroundGraph(Neo4jConnection):
         """
         self.write_to_database(query, {f"data": data})
         
+        
+    def _execute_cypher_file_query(self, cypher_f_path: str, **kwargs) -> None:
+        
+        try:
+            query = read_cypher_file(cypher_f_path)
+            formatted_query = query.format(**kwargs)
+            with self.driver.session() as session:
+                session.run(formatted_query)
+            print(f"Query from `{cypher_f_path}` executed successfully")
+        except Exception as e:
+            print(f"Failed to execute query from `{cypher_f_path}: {e}")
+        
     
+    def create_graph_projection(self, graph_name: str, node_type: str, relationship_type: str) -> None:
+        """
+        Creates a graph projection in the Neo4j database for the London Undergroun Graph.
+        
+        Parameters:
+        graph_name (str): The name of the graph projection.
+        node_type (str): Type of node to include in the graph projection.
+        relationship_type (str): Type of relationship to include in the graph projection.
+        """
+        self._execute_cypher_file_query(
+            r"cypher/create_graph_projection.cypher",
+            graph_name=graph_name,
+            node_type=node_type,
+            relationship_type=relationship_type
+        )
+                
     
+    def drop_graph_projection(self, graph_name: str) -> None:
+        """
+        Drops a graph projection in the Neo4j database.
+        
+        Parameters:
+        graph_name (str): The name of the graph projection to drop.
+        """
+        self._execute_cypher_file_query(
+            r"cypher/drop_graph_projection.cypher",
+            graph_name=graph_name
+        )
         
     
         
