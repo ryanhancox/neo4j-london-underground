@@ -1,4 +1,4 @@
-UNWIND $connections as connection
+UNWIND $data as connection
 MATCH (from:Station {name: connection.station_from})
 MATCH (to:Station {name: connection.station_to})
 MERGE (from)-[r:CONNECTED_TO {

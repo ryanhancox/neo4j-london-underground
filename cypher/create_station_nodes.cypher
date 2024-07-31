@@ -1,4 +1,4 @@
-UNWIND $stations as station
+UNWIND $data as station
 MERGE (s:Station {name: station.name})
 SET s += {
     latitude: station.latitude,

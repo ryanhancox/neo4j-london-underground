@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 from src.neo4j_graph import LondonUndergroundGraph
-from src.utilities import load_csv_parse_to_dict
+from src.utilities import load_csv_parse_to_dict, read_cypher_file
 
 if __name__ == "__main__":
     _ = load_dotenv()
@@ -18,10 +18,18 @@ if __name__ == "__main__":
     connections = load_csv_parse_to_dict(r"data/processed/connections_clean.csv")
     interchanges = load_csv_parse_to_dict(r"data/processed/interchanges_clean.csv")
     
+    # Load cypher queries to write data to database
+    station_query = read_cypher_file(r"cypher/create_station_nodes.cypher")
+    connection_query = read_cypher_file(r"cypher/create_station_connections.cypher")
+    interchange_query = read_cypher_file(r"cypher/create_station_interchanges.cypher")
+    
     # Write underground data to Neo4j database
-    underground_graph.create_station_nodes(stations)
-    underground_graph.create_station_connections(connections)
-    underground_graph.create_station_interchanges(interchanges)
+    underground_graph.write_underground_data(station_query, stations)
+    underground_graph.write_underground_data(connection_query, connections)
+    underground_graph.write_underground_data(interchange_query, interchanges)
+    
+    result = underground_graph.read_from_database("MATCH (s) RETURN s LIMIT 5")
+    print(result)
     
     # Close connection
     underground_graph.close()

@@ -1,101 +1,96 @@
-from neo4j import GraphDatabase
+from neo4j import GraphDatabase, Session
+from neo4j.exceptions import Neo4jError
 from src.utilities import read_cypher_file
 
 class Neo4jConnection:
     """
-    This class is used to connect to the Neo4j database instance and close
-    the connetions as required.
+    Creates a connection to a Neo4j database instance. Can be used to write and
+    read from the database and close the connection as required.
     """
     
-    def __init__(self, uri, user, password) -> None:
+    def __init__(self, uri: str, user: str, password: str) -> None:
         self.driver = GraphDatabase.driver(uri, auth=(user, password))
 
     
     def close(self) -> None:
+        """Close the connection to the Neo4j database."""
         self.driver.close()
         
+    
+    def write_to_database(self, query: str, data: dict = None) -> None:
+        """
+        Writes data to the Neo4j database.
         
-    def query_database(self, query:str, data: dict = None) -> None:
+        Parameters:
+        query (str): The Cypher query to be executed.
+        data (dict, optional): The parameters for the Cypher query.
         """
-        Queries the Neo4j database. Can be used to write and delete data, as well as perform
-        analytical queries. Data must be passed as a dictionary when writing data.
+        try:
+            with self.driver.session() as session:
+                session.execute_write(self._execute_query, query, data)
+            print("Write operation successful")
+        except Neo4jError as e:
+            print(f"Failed to write to the database: {e}")
+        
+    
+    def read_from_database(self, query: str, data: dict = None) -> list:
         """
-        with self.driver.session() as session:
-            session.run(query, data)
-            
+        Queries the Neo4j database.
+        
+        Parameters:
+        query (str): The Cypher query to be executed.
+        data (dict, optional): The parameters for the Cypher query.
+        
+        Returns:
+        list: A list of query results.
+        """
+        try: 
+            with self.driver.session() as session:
+                result = session.execute_read(self._execute_query, query, data)
+                return result
+        except Neo4jError as e:
+            print(f"Failed to read data from the database: {e}")
+            return []
+        
     
     def delete_data(self) -> None:
         """Deletes all data from the Neo4j database."""
         
         query = "MATCH (n) DETACH DELETE n"
         try:
-            self.query_database(query)
+            self.write_to_database(query)
             print("Data successfully deleted from database")
-        except Exception as e:
-            print(f"Failed to delete data from database \n{e}")
+        except Neo4jError as e:
+            print(f"Failed to delete data from database: {e}")
+            
         
+    def _execute_query(self, tx: Session, query: str, parameters: dict):
+        """
+        Executes queries against the Neo4j database.
+        """
+        result = tx.run(query, parameters)
+        return [record.data() for record in result]
         
         
         
 class LondonUndergroundGraph(Neo4jConnection):
     """
     This class is used to create the London Underground graph in the Neo4j database instance.
-    Additional methods are included for the shortest path calculation and to delete the graph
-    as required.
+    Methods are included to load the station, connection, and interchange data seperately.
     """
     
     def __init__(self, uri, user, password):
         super().__init__(uri, user, password)
         
     
-    def create_station_nodes(self, stations: dict) -> None:
+    def write_underground_data(self, query: str, data: dict) -> None:
         """
         Writes station data to Neo4j database. Station data must have the 
         attributes defined in the `create_statin.cypher` file. Station data
         must be passed to the function as a dictionary.
         """
+        self.write_to_database(query, {f"data": data})
         
-        query = read_cypher_file(r"cypher/create_station_nodes.cypher")
-        
-        try:
-            self.query_database(query, {"stations": stations})
-            print("Stations data successfully written to database")
-        except Exception as e:
-            print(f"Failed to write station data to database \n{e}")
-                
-
-    def create_station_connections(self, connections:dict) -> None:
-        """
-        Writes connection relationships between station nodes to Neo4j database.
-        Connection data must have the attributes defined in the `create_station_connections.cypher`
-        file. Connection data must be passed to the function as a dictionary.
-        """
-        
-        query = read_cypher_file(r"cypher/create_station_connections.cypher")
-        
-        try:
-            self.query_database(query, {"connections": connections})
-            print("Connection data successfully written to database")
-        except Exception as e:
-            print(f"Failed to write conenction data to database \n{e}")
-                
-
-    
-    def create_station_interchanges(self, interchanges:dict) -> None:
-        """
-        Writes interchange relationships between station nodes to Neo4j database. Interchange
-        data must have the attributes defined in the `create_station_interchanges.cypher` file.
-        Interchange data must be passed to the function as a dictionary.
-        """
-        query = read_cypher_file(r"cypher/create_station_interchanges.cypher")
-        
-        try:
-            self.query_database(query, {"interchanges": interchanges})
-            print("Interchange data successfully written to database")
-        except Exception as e:
-            print(f"Failed to write interchange data to database \n{e}")
-        
-    
     
     
         
