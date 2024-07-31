@@ -85,9 +85,12 @@ class LondonUndergroundGraph(Neo4jConnection):
     
     def write_underground_data(self, query: str, data: dict) -> None:
         """
-        Writes station data to Neo4j database. Station data must have the 
-        attributes defined in the `create_statin.cypher` file. Station data
-        must be passed to the function as a dictionary.
+        Writes underground data to Neo4j database. 
+        
+        Parameters:
+        query (str): The cypher query to be executed against the database. Must begin
+        with `UNWIND $data`.
+        data (dict): The data to be written to the Neo4j database.
         """
         self.write_to_database(query, {f"data": data})
         
