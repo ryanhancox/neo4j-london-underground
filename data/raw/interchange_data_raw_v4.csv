@@ -12,14 +12,8 @@
 10,Baker Street,Hammersmith & City to Jubilee: 8 minutes,Hammersmith & City,Jubilee,8
 11,Baker Street,Hammersmith & City to Metropolitan: 5 minutes,Hammersmith & City,Metropolitan,5
 12,Baker Street,Jubilee to Metropolitan: 3 minutes,Jubilee,Metropolitan,3
-13,Bank,Central to Circle: 7 minutes,Central,Circle,7
-14,Bank,Central to District: 7 minutes,Central,District,7
 15,Bank,Central to Northern: 4 minutes,Central,Northern,4
 16,Bank,Central to Waterloo & City: 4.5 minutes,Central,Waterloo & City,4.5
-17,Bank,Circle to Northern: 4 minutes,Circle,Northern,4
-18,Bank,Circle to Waterloo & City: 10 minutes,Circle,Waterloo & City,10
-19,Bank,District to Northern: 4 minutes,District,Northern,4
-20,Bank,District to Waterloo & City: 10 minutes,District,Waterloo & City,10
 21,Bank,Northern to Waterloo & City: 7 minutes,Northern,Waterloo & City,7
 22,Barbican,Circle to Hammersmith & City: 2 minutes,Circle,Hammersmith & City,2
 23,Barbican,Circle to Metropolitan: 2 minutes,Circle,Metropolitan,2
@@ -98,16 +92,7 @@
 99,Mile End,Central to District: 3 minutes,Central,District,3
 100,Mile End,Central to Hammersmith & City: 3 minutes,Central,Hammersmith & City,3
 101,Mile End,District to Hammersmith & City: 3 minutes,District,Hammersmith & City,3
-102,Monument,Central to Circle: 7 minutes,Central,Circle,7
-103,Monument,Central to District: 7 minutes,Central,District,7
-104,Monument,Central to Northern: 4 minutes,Central,Northern,4
-105,Monument,Central to Waterloo & City: 4.5 minutes,Central,Waterloo & City,4.5
 106,Monument,Circle to District: 4 minutes,Circle,District,4
-107,Monument,Circle to Northern: 4 minutes,Circle,Northern,4
-108,Monument,Circle to Waterloo & City: 10 minutes,Circle,Waterloo & City,10
-109,Monument,District to Northern: 4 minutes,District,Northern,4
-110,Monument,District to Waterloo & City: 10 minutes,District,Waterloo & City,10
-111,Monument,Northern to Waterloo & City: 7 minutes,Northern,Waterloo & City,7
 112,Moorgate,Circle to Hammersmith & City: 4 minutes,Circle,Hammersmith & City,4
 113,Moorgate,Circle to Metropolitan: 4 minutes,Circle,Metropolitan,4
 114,Moorgate,Circle to Northern: 7 minutes,Circle,Northern,7

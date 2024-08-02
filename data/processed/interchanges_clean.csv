@@ -12,153 +12,138 @@
 10,Baker Street,Hammersmith & City,Jubilee,8.0
 11,Baker Street,Hammersmith & City,Metropolitan,5.0
 12,Baker Street,Jubilee,Metropolitan,3.0
-13,Bank,Central,Circle,7.0
-14,Bank,Central,District,7.0
-15,Bank,Central,Northern,4.0
-16,Bank,Central,Waterloo & City,4.5
-17,Bank,Circle,Northern,4.0
-18,Bank,Circle,Waterloo & City,10.0
-19,Bank,District,Northern,4.0
-20,Bank,District,Waterloo & City,10.0
-21,Bank,Northern,Waterloo & City,7.0
-22,Barbican,Circle,Hammersmith & City,2.0
-23,Barbican,Circle,Metropolitan,2.0
-24,Barbican,Hammersmith & City,Metropolitan,2.0
-25,Barking,District,Hammersmith & City,4.0
-26,Barons Court,District,Piccadilly,4.0
-27,Bayswater,Circle,District,4.0
-28,Bond Street,Central,Jubilee,4.0
-29,Bow Road,District,Hammersmith & City,2.0
-30,Bromley By Bow,District,Hammersmith & City,4.0
-31,Cannon Street,Circle,District,3.0
-32,Charing Cross,Bakerloo,Northern,7.0
-33,Ealing Broadway,Central,District,4.0
-34,Ealing Common,District,Piccadilly,4.0
-35,Earls Court,District,Piccadilly,3.0
-36,Eastcote,Metropolitan,Piccadilly,4.0
-37,East Ham,District,Hammersmith & City,4.0
-38,Edgware Road,District,Hammersmith & City,4.0
-39,Edgware Road,District,Circle,4.0
-40,Edgware Road,Hammersmith & City,Circle,4.0
-41,Embankment,Bakerloo,Circle,5.0
-42,Embankment,Bakerloo,District,5.0
-43,Embankment,Bakerloo,Northern,5.0
-44,Embankment,Circle,District,4.0
-45,Embankment,Circle,Northern,5.0
-46,Embankment,District,Northern,5.0
-47,Euston,Northern,Victoria,5.0
-48,Euston Square,Metropolitan,Hammersmith & City,2.0
-49,Euston Square,Metropolitan,Circle,2.0
-50,Euston Square,Hammersmith & City,Circle,2.0
-51,Farringdon,Metropolitan,Hammersmith & City,4.0
-52,Farringdon,Metropolitan,Circle,4.0
-53,Farringdon,Hammersmith & City,Circle,4.0
-54,Finchley Road,Jubilee,Metropolitan,3.0
-55,Finsbury Park,Piccadilly,Victoria,4.0
-56,Gloucester Road,Circle,District,4.0
-57,Gloucester Road,Circle,Piccadilly,7.0
-58,Gloucester Road,District,Piccadilly,7.0
-59,Great Portland Street,Metropolitan,Hammersmith & City,4.0
-60,Great Portland Street,Metropolitan,Circle,4.0
-61,Great Portland Street,Hammersmith & City,Circle,4.0
-62,Green Park,Jubilee,Piccadilly,5.5
-63,Green Park,Jubilee,Victoria,4.5
-64,Green Park,Piccadilly,Victoria,4.0
-65,Hammersmith,District,Piccadilly,4.0
-66,High Street Kensington,Circle,District,4.0
-67,Hillingdon,Metropolitan,Piccadilly,4.0
-68,Holborn,Central,Piccadilly,6.0
-69,Ickenham,Metropolitan,Piccadilly,4.0
-70,Kings Cross St Pancras,Circle,Hammersmith & City,2.0
-71,Kings Cross St Pancras,Circle,Metropolitan,2.0
-72,Kings Cross St Pancras,Circle,Northern,7.5
-73,Kings Cross St Pancras,Circle,Piccadilly,5.0
-74,Kings Cross St Pancras,Circle,Victoria,5.0
-75,Kings Cross St Pancras,Hammersmith & City,Metropolitan,2.0
-76,Kings Cross St Pancras,Hammersmith & City,Northern,7.5
-77,Kings Cross St Pancras,Hammersmith & City,Piccadilly,5.0
-78,Kings Cross St Pancras,Hammersmith & City,Victoria,5.0
-79,Kings Cross St Pancras,Metropolitan,Northern,7.5
-80,Kings Cross St Pancras,Metropolitan,Piccadilly,5.0
-81,Kings Cross St Pancras,Metropolitan,Victoria,5.0
-82,Kings Cross St Pancras,Northern,Piccadilly,2.5
-83,Kings Cross St Pancras,Northern,Victoria,4.5
-84,Kings Cross St Pancras,Piccadilly,Victoria,2.0
-85,Ladbroke Grove,Circle,Hammersmith & City,4.0
-86,Latimer Road,Circle,Hammersmith & City,4.0
-87,Leicester Square,Northern,Piccadilly,4.0
-88,Liverpool Street,Central,Circle,6.0
-89,Liverpool Street,Central,Hammersmith & City,6.0
-90,Liverpool Street,Central,Metropolitan,6.0
-91,Liverpool Street,Circle,Hammersmith & City,4.0
-92,Liverpool Street,Circle,Metropolitan,4.0
-93,Liverpool Street,Hammersmith & City,Metropolitan,4.0
-94,London Bridge,Jubilee,Northern,6.0
-95,Mansion House,Circle,District,4.0
-96,Mile End,Central,District,3.0
-97,Mile End,Central,Hammersmith & City,3.0
-98,Mile End,District,Hammersmith & City,3.0
-99,Monument,Central,Circle,7.0
-100,Monument,Central,District,7.0
-101,Monument,Central,Northern,4.0
-102,Monument,Central,Waterloo & City,4.5
-103,Monument,Circle,District,4.0
-104,Monument,Circle,Northern,4.0
-105,Monument,Circle,Waterloo & City,10.0
-106,Monument,District,Northern,4.0
-107,Monument,District,Waterloo & City,10.0
-108,Monument,Northern,Waterloo & City,7.0
-109,Moorgate,Circle,Hammersmith & City,4.0
-110,Moorgate,Circle,Metropolitan,4.0
-111,Moorgate,Circle,Northern,7.0
-112,Moorgate,Hammersmith & City,Metropolitan,4.0
-113,Moorgate,Hammersmith & City,Northern,7.0
-114,Moorgate,Metropolitan,Northern,7.0
-115,Notting Hill Gate,Central,Circle,4.0
-116,Notting Hill Gate,Central,District,4.0
-117,Notting Hill Gate,Circle,District,4.0
-118,Oxford Circus,Bakerloo,Central,4.0
-119,Oxford Circus,Bakerloo,Victoria,4.0
-120,Oxford Circus,Central,Victoria,4.0
-121,Paddington,Bakerloo,Circle,7.0
-122,Paddington,Bakerloo,District,7.0
-123,Paddington,Bakerloo,Hammersmith & City,15.0
-124,Paddington,Circle,District,4.0
-125,Paddington,Circle,Hammersmith & City,13.0
-126,Paddington,District,Hammersmith & City,13.0
-127,Piccadilly Circus,Bakerloo,Piccadilly,3.0
-128,Plaistow,District,Hammersmith & City,4.0
-129,Rayners Lane,Metropolitan,Piccadilly,4.0
-130,Royal Oak,Circle,Hammersmith & City,2.0
-131,Ruislip,Metropolitan,Piccadilly,3.0
-132,Ruislip Manor,Metropolitan,Piccadilly,4.0
-133,St James Park,Circle,District,4.0
-134,Shepherds Bush,Circle,Hammersmith & City,4.0
-135,Sloane Square,Circle,District,5.0
-136,South Kensington,Circle,District,2.0
-137,South Kensington,Circle,Piccadilly,4.0
-138,South Kensington,District,Piccadilly,4.0
-139,Stepney Green,District,Hammersmith & City,4.0
-140,Stockwell,Northern,Victoria,3.0
-141,Temple,Circle,District,4.0
-142,Tottenham Court Road,Central,Northern,4.0
-143,Tower Hill,Circle,District,2.0
-144,Turnham Green,District,Piccadilly,4.0
-145,Upton Park,District,Hammersmith & City,4.0
-146,Uxbridge,Metropolitan,Piccadilly,1.0
-147,Victoria,Circle,District,2.0
-148,Victoria,Circle,Victoria,4.0
-149,Victoria,District,Victoria,4.0
-150,Warren Street,Northern,Victoria,6.0
-151,Waterloo,Bakerloo,Jubilee,6.0
-152,Waterloo,Bakerloo,Northern,4.0
-153,Waterloo,Jubilee,Northern,6.0
-154,Wembley Park,Jubilee,Metropolitan,4.0
-155,Westbourne Park,Circle,Hammersmith & City,4.0
-156,West Ham,District,Hammersmith & City,5.0
-157,West Ham,District,Jubilee,5.0
-158,West Ham,Hammersmith & City,Jubilee,5.0
-159,Westminster,Circle,District,4.0
-160,Westminster,Circle,Jubilee,6.0
-161,Westminster,District,Jubilee,6.0
-162,Whitechapel,Hammersmith & City,District,2.0
+13,Bank,Central,Northern,4.0
+14,Bank,Central,Waterloo & City,4.5
+15,Bank,Northern,Waterloo & City,7.0
+16,Barbican,Circle,Hammersmith & City,2.0
+17,Barbican,Circle,Metropolitan,2.0
+18,Barbican,Hammersmith & City,Metropolitan,2.0
+19,Barking,District,Hammersmith & City,4.0
+20,Barons Court,District,Piccadilly,4.0
+21,Bayswater,Circle,District,4.0
+22,Bond Street,Central,Jubilee,4.0
+23,Bow Road,District,Hammersmith & City,2.0
+24,Bromley By Bow,District,Hammersmith & City,4.0
+25,Cannon Street,Circle,District,3.0
+26,Charing Cross,Bakerloo,Northern,7.0
+27,Ealing Broadway,Central,District,4.0
+28,Ealing Common,District,Piccadilly,4.0
+29,Earls Court,District,Piccadilly,3.0
+30,Eastcote,Metropolitan,Piccadilly,4.0
+31,East Ham,District,Hammersmith & City,4.0
+32,Edgware Road,District,Hammersmith & City,4.0
+33,Edgware Road,District,Circle,4.0
+34,Edgware Road,Hammersmith & City,Circle,4.0
+35,Embankment,Bakerloo,Circle,5.0
+36,Embankment,Bakerloo,District,5.0
+37,Embankment,Bakerloo,Northern,5.0
+38,Embankment,Circle,District,4.0
+39,Embankment,Circle,Northern,5.0
+40,Embankment,District,Northern,5.0
+41,Euston,Northern,Victoria,5.0
+42,Euston Square,Metropolitan,Hammersmith & City,2.0
+43,Euston Square,Metropolitan,Circle,2.0
+44,Euston Square,Hammersmith & City,Circle,2.0
+45,Farringdon,Metropolitan,Hammersmith & City,4.0
+46,Farringdon,Metropolitan,Circle,4.0
+47,Farringdon,Hammersmith & City,Circle,4.0
+48,Finchley Road,Jubilee,Metropolitan,3.0
+49,Finsbury Park,Piccadilly,Victoria,4.0
+50,Gloucester Road,Circle,District,4.0
+51,Gloucester Road,Circle,Piccadilly,7.0
+52,Gloucester Road,District,Piccadilly,7.0
+53,Great Portland Street,Metropolitan,Hammersmith & City,4.0
+54,Great Portland Street,Metropolitan,Circle,4.0
+55,Great Portland Street,Hammersmith & City,Circle,4.0
+56,Green Park,Jubilee,Piccadilly,5.5
+57,Green Park,Jubilee,Victoria,4.5
+58,Green Park,Piccadilly,Victoria,4.0
+59,Hammersmith,District,Piccadilly,4.0
+60,High Street Kensington,Circle,District,4.0
+61,Hillingdon,Metropolitan,Piccadilly,4.0
+62,Holborn,Central,Piccadilly,6.0
+63,Ickenham,Metropolitan,Piccadilly,4.0
+64,Kings Cross St Pancras,Circle,Hammersmith & City,2.0
+65,Kings Cross St Pancras,Circle,Metropolitan,2.0
+66,Kings Cross St Pancras,Circle,Northern,7.5
+67,Kings Cross St Pancras,Circle,Piccadilly,5.0
+68,Kings Cross St Pancras,Circle,Victoria,5.0
+69,Kings Cross St Pancras,Hammersmith & City,Metropolitan,2.0
+70,Kings Cross St Pancras,Hammersmith & City,Northern,7.5
+71,Kings Cross St Pancras,Hammersmith & City,Piccadilly,5.0
+72,Kings Cross St Pancras,Hammersmith & City,Victoria,5.0
+73,Kings Cross St Pancras,Metropolitan,Northern,7.5
+74,Kings Cross St Pancras,Metropolitan,Piccadilly,5.0
+75,Kings Cross St Pancras,Metropolitan,Victoria,5.0
+76,Kings Cross St Pancras,Northern,Piccadilly,2.5
+77,Kings Cross St Pancras,Northern,Victoria,4.5
+78,Kings Cross St Pancras,Piccadilly,Victoria,2.0
+79,Ladbroke Grove,Circle,Hammersmith & City,4.0
+80,Latimer Road,Circle,Hammersmith & City,4.0
+81,Leicester Square,Northern,Piccadilly,4.0
+82,Liverpool Street,Central,Circle,6.0
+83,Liverpool Street,Central,Hammersmith & City,6.0
+84,Liverpool Street,Central,Metropolitan,6.0
+85,Liverpool Street,Circle,Hammersmith & City,4.0
+86,Liverpool Street,Circle,Metropolitan,4.0
+87,Liverpool Street,Hammersmith & City,Metropolitan,4.0
+88,London Bridge,Jubilee,Northern,6.0
+89,Mansion House,Circle,District,4.0
+90,Mile End,Central,District,3.0
+91,Mile End,Central,Hammersmith & City,3.0
+92,Mile End,District,Hammersmith & City,3.0
+93,Monument,Circle,District,4.0
+94,Moorgate,Circle,Hammersmith & City,4.0
+95,Moorgate,Circle,Metropolitan,4.0
+96,Moorgate,Circle,Northern,7.0
+97,Moorgate,Hammersmith & City,Metropolitan,4.0
+98,Moorgate,Hammersmith & City,Northern,7.0
+99,Moorgate,Metropolitan,Northern,7.0
+100,Notting Hill Gate,Central,Circle,4.0
+101,Notting Hill Gate,Central,District,4.0
+102,Notting Hill Gate,Circle,District,4.0
+103,Oxford Circus,Bakerloo,Central,4.0
+104,Oxford Circus,Bakerloo,Victoria,4.0
+105,Oxford Circus,Central,Victoria,4.0
+106,Paddington,Bakerloo,Circle,7.0
+107,Paddington,Bakerloo,District,7.0
+108,Paddington,Bakerloo,Hammersmith & City,15.0
+109,Paddington,Circle,District,4.0
+110,Paddington,Circle,Hammersmith & City,13.0
+111,Paddington,District,Hammersmith & City,13.0
+112,Piccadilly Circus,Bakerloo,Piccadilly,3.0
+113,Plaistow,District,Hammersmith & City,4.0
+114,Rayners Lane,Metropolitan,Piccadilly,4.0
+115,Royal Oak,Circle,Hammersmith & City,2.0
+116,Ruislip,Metropolitan,Piccadilly,3.0
+117,Ruislip Manor,Metropolitan,Piccadilly,4.0
+118,St James Park,Circle,District,4.0
+119,Shepherds Bush,Circle,Hammersmith & City,4.0
+120,Sloane Square,Circle,District,5.0
+121,South Kensington,Circle,District,2.0
+122,South Kensington,Circle,Piccadilly,4.0
+123,South Kensington,District,Piccadilly,4.0
+124,Stepney Green,District,Hammersmith & City,4.0
+125,Stockwell,Northern,Victoria,3.0
+126,Temple,Circle,District,4.0
+127,Tottenham Court Road,Central,Northern,4.0
+128,Tower Hill,Circle,District,2.0
+129,Turnham Green,District,Piccadilly,4.0
+130,Upton Park,District,Hammersmith & City,4.0
+131,Uxbridge,Metropolitan,Piccadilly,1.0
+132,Victoria,Circle,District,2.0
+133,Victoria,Circle,Victoria,4.0
+134,Victoria,District,Victoria,4.0
+135,Warren Street,Northern,Victoria,6.0
+136,Waterloo,Bakerloo,Jubilee,6.0
+137,Waterloo,Bakerloo,Northern,4.0
+138,Waterloo,Jubilee,Northern,6.0
+139,Wembley Park,Jubilee,Metropolitan,4.0
+140,Westbourne Park,Circle,Hammersmith & City,4.0
+141,West Ham,District,Hammersmith & City,5.0
+142,West Ham,District,Jubilee,5.0
+143,West Ham,Hammersmith & City,Jubilee,5.0
+144,Westminster,Circle,District,4.0
+145,Westminster,Circle,Jubilee,6.0
+146,Westminster,District,Jubilee,6.0
+147,Whitechapel,Hammersmith & City,District,2.0
