@@ -68,8 +68,11 @@ class Neo4jConnection:
         """
         Executes queries against the Neo4j database.
         """
-        result = tx.run(query, parameters)
-        return [record.data() for record in result]
+        try:
+            result = tx.run(query, parameters)
+            return [record.data() for record in result]
+        except Neo4jError as e:
+            print(f"Error executing query against database: {e}")
         
         
         
@@ -103,7 +106,7 @@ class LondonUndergroundGraph(Neo4jConnection):
             with self.driver.session() as session:
                 session.run(formatted_query)
             print(f"Query from `{cypher_f_path}` executed successfully")
-        except Exception as e:
+        except Neo4jError as e:
             print(f"Failed to execute query from `{cypher_f_path}: {e}")
         
     
