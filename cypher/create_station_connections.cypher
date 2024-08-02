@@ -1,6 +1,6 @@
 UNWIND $data as connection
-MATCH (from:Station {name: connection.station_from})
-MATCH (to:Station {name: connection.station_to})
+MATCH (from:Station {name: connection.station_from, line: connection.line})
+MATCH (to:Station {name: connection.station_to, line: connection.line})
 MERGE (from)-[r:CONNECTED_TO {
     line: connection.line,
     direction: connection.direction,
