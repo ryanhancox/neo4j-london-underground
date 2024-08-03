@@ -1,6 +1,13 @@
+import logging
 from neo4j import GraphDatabase, Session
 from neo4j.exceptions import Neo4jError, SessionError
 from src.utilities import read_cypher_file
+
+logging.basicConfig(
+    level=logging.INFO, 
+    format="%(asctime)s - %(levelname)s - %(message)s",
+)
+logger = logging.getLogger(__name__)
 
 class Neo4jConnection:
     """
@@ -11,10 +18,27 @@ class Neo4jConnection:
     def __init__(self, uri: str, user: str, password: str) -> None:
         self.driver = GraphDatabase.driver(uri, auth=(user, password))
 
+
+    def _execute_query(self, tx: Session, query: str, data: dict = None):
+        """
+        Executes queries against the Neo4j database.
+
+        Parameters:
+        query (str): The Cypher query to be executed.
+        data (dict, optional): The parameters for the Cypher query.
+        """
+        try:
+            result = tx.run(query, data)
+            return result.data()
+        except SessionError as e:
+            self.close_connection()
+            logger.error(f"Error executing query against Neo4j database: {e}")
+
     
-    def close(self) -> None:
+    def close_connection(self) -> None:
         """Close the connection to the Neo4j database."""
         self.driver.close()
+        logger.info("Closed the connection to the Neo4j database.")
         
     
     def write_to_database(self, query: str, data: dict = None) -> None:
@@ -25,12 +49,10 @@ class Neo4jConnection:
         query (str): The Cypher query to be executed.
         data (dict, optional): The parameters for the Cypher query.
         """
-        try:
-            with self.driver.session() as session:
-                session.execute_write(self._execute_query, query, data)
-                print("Write operation successful")
-        except SessionError as e:
-            print(f"Failed to write to the database: {e}")
+        with self.driver.session() as session:
+            session.execute_write(self._execute_query, query, data)
+            logger.info("Write operation to Neo4j database successful.")
+
         
     
     def read_from_database(self, query: str, data: dict = None) -> list:
@@ -44,27 +66,10 @@ class Neo4jConnection:
         Returns:
         list: A list of query results.
         """
-        try: 
-            with self.driver.session() as session:
-                result = session.execute_read(self._execute_query, query, data)
-                print("Read operation successful")
-                return result
-        except SessionError as e:
-            print(f"Failed to read data from the database: {e}")
-            return []
-            
-        
-    def _execute_query(self, tx: Session, query: str, parameters: dict = None):
-        """
-        Executes queries against the Neo4j database.
-        """
-        try:
-            result = tx.run(query, parameters)
-            return result.data()
-        except SessionError as e:
-            print(f"Error executing query against database: {e}")
-
-        
+        with self.driver.session() as session:
+            result = session.execute_read(self._execute_query, query, data)
+            logger.info("Read operation on the Neo4j database successful.")
+            return result     
         
         
 class LondonUndergroundGraph(Neo4jConnection):
@@ -96,11 +101,11 @@ class LondonUndergroundGraph(Neo4jConnection):
             formatted_query = query.format(**kwargs)
             with self.driver.session() as session:
                 session.run(formatted_query)
-            print(f"Query from `{cypher_f_path}` executed successfully")
+            logger.info(f"Query from `{cypher_f_path}` executed successfully.")
         except Neo4jError as e:
-            print(f"Failed to execute query from `{cypher_f_path}: {e}")
-        
-    
+            logger.error(f"Failed to execute query from `{cypher_f_path}: {e}")
+            
+
     def create_graph_projection(self, graph_name: str, node_type: str, relationship_type: str) -> None:
         """
         Creates a graph projection in the Neo4j database for the London Undergroun Graph.

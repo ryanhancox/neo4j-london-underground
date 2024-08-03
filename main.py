@@ -30,28 +30,9 @@ if __name__ == "__main__":
     underground_graph.write_underground_data(connection_query, connections)
     underground_graph.write_underground_data(interchange_query, interchanges)
 
-    graph_interchanges = underground_graph.read_from_database(
-    """
-    MATCH (s1:Station)-[c:CONNECTED_TO WHERE c.line = "Interchange"]->(s2:Station)
-    RETURN
-        s1.name,
-        s1.line,
-        s2.line 
-    """
-    )
-
-    df_graph_interchanges = pd.DataFrame(graph_interchanges).rename(columns={
-        "s1.name": "station",
-        "s1.line": "line_from",
-        "s2.line": "line_to"
-    })
-    df_all_interchanges = pd.read_csv(r"data/processed/interchanges_clean.csv")[["station", "line_from", "line_to"]]
-    df_diff = pd.concat([df_all_interchanges, df_graph_interchanges]).drop_duplicates(keep=False)
-    print(df_diff)
-
-    # underground_graph.create_graph_projection('underground_test', 'Station', 'CONNECTED_TO')
-    # underground_graph.drop_graph_projection('underground_test')
+    underground_graph.create_graph_projection('underground_test', 'Station', 'CONNECTED_TO')
+    underground_graph.drop_graph_projection('underground_test')
     
     # Close connection
-    underground_graph.close()
+    underground_graph.close_connection()
     

@@ -13,7 +13,7 @@ def conn():
     PASSWORD = os.getenv("NEO4J_PASSWORD")
     connection = Neo4jConnection(URI, USERNAME, PASSWORD)
     yield connection
-    connection.close()
+    connection.close_connection()
 
 
 def test_neo4j_conn(conn):
