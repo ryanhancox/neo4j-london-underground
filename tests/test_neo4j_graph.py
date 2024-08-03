@@ -2,7 +2,7 @@ import pytest
 import os
 import pandas as pd
 from dotenv import load_dotenv
-from src.neo4j_graph import Neo4jConnection
+from src.neo4j_graph import LondonUndergroundGraph
 
 @pytest.fixture(scope="module")
 def conn():
@@ -11,7 +11,7 @@ def conn():
     URI = os.getenv("NEO4J_URI")
     USERNAME = os.getenv("NEO4J_USERNAME")
     PASSWORD = os.getenv("NEO4J_PASSWORD")
-    connection = Neo4jConnection(URI, USERNAME, PASSWORD)
+    connection = LondonUndergroundGraph(URI, USERNAME, PASSWORD)
     yield connection
     connection.close_connection()
 
@@ -19,6 +19,12 @@ def conn():
 def test_neo4j_conn(conn):
     assert conn.driver.verify_authentication() == True,\
         "Driver verification should return true"
+    
+
+def test_invalid_read(conn):
+    invalid_query = "MATCH (n:NonExistentLabel) RETURN n"
+    result = conn.read_from_database(invalid_query)
+    assert result == []
 
 
 def test_stations_uploaded(conn):
@@ -46,3 +52,25 @@ def test_interchanges_uploaded(conn):
     """
     graph_connections = conn.read_from_database(query)
     assert interchanges == graph_connections[0]["count(c)"]
+
+
+def test_create_drop_graph_projection(conn):
+    actual_results = []
+    graph_name = "test_graph"
+    conn.create_graph_projection(
+        graph_name=graph_name,
+        node_type="Station",
+        relationship_type="CONNECTED_TO"
+    )
+    
+    # Check graph projection exists
+    query = f"CALL gds.graph.exists('{graph_name}') YIELD exists"
+    result = conn.read_from_database(query)
+    actual_results.append(result[0]["exists"])
+
+    # Drop the graph connection and verify
+    conn.drop_graph_projection(graph_name)
+    result = conn.read_from_database(query)
+    actual_results.append(result[0]["exists"])
+
+    assert actual_results == [True, False]

@@ -19,7 +19,7 @@ class Neo4jConnection:
         self.driver = GraphDatabase.driver(uri, auth=(user, password))
 
 
-    def _execute_query(self, tx: Session, query: str, data: dict = None):
+    def _execute_query(self, tx: Session, query: str, data: dict = None) -> list:
         """
         Executes queries against the Neo4j database.
 
@@ -33,6 +33,7 @@ class Neo4jConnection:
         except SessionError as e:
             self.close_connection()
             logger.error(f"Error executing query against Neo4j database: {e}")
+            return []
 
     
     def close_connection(self) -> None:

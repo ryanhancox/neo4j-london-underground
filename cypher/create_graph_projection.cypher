@@ -1,4 +1,4 @@
-CALL gds.graph.project.cypher(
+CALL gds.graph.project(
     '{graph_name}',
     '{node_type}',
     '{relationship_type}'
