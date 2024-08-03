@@ -1,5 +1,5 @@
 from neo4j import GraphDatabase, Session
-from neo4j.exceptions import Neo4jError
+from neo4j.exceptions import Neo4jError, SessionError
 from src.utilities import read_cypher_file
 
 class Neo4jConnection:
@@ -28,8 +28,8 @@ class Neo4jConnection:
         try:
             with self.driver.session() as session:
                 session.execute_write(self._execute_query, query, data)
-            print("Write operation successful")
-        except Neo4jError as e:
+                print("Write operation successful")
+        except SessionError as e:
             print(f"Failed to write to the database: {e}")
         
     
@@ -47,32 +47,23 @@ class Neo4jConnection:
         try: 
             with self.driver.session() as session:
                 result = session.execute_read(self._execute_query, query, data)
+                print("Read operation successful")
                 return result
-        except Neo4jError as e:
+        except SessionError as e:
             print(f"Failed to read data from the database: {e}")
             return []
-        
-    
-    def delete_data(self) -> None:
-        """Deletes all data from the Neo4j database."""
-        
-        query = "MATCH (n) DETACH DELETE n"
-        try:
-            self.write_to_database(query)
-            print("Data successfully deleted from database")
-        except Neo4jError as e:
-            print(f"Failed to delete data from database: {e}")
             
         
-    def _execute_query(self, tx: Session, query: str, parameters: dict):
+    def _execute_query(self, tx: Session, query: str, parameters: dict = None):
         """
         Executes queries against the Neo4j database.
         """
         try:
             result = tx.run(query, parameters)
-            return [record.data() for record in result]
-        except Neo4jError as e:
+            return result.data()
+        except SessionError as e:
             print(f"Error executing query against database: {e}")
+
         
         
         
