@@ -13,22 +13,22 @@ if __name__ == "__main__":
     
     # Create connection to London Underground Neo4j graph and delete any existing data
     underground_graph = LondonUndergroundGraph(URI, USERNAME, PASSWORD)
-    # underground_graph.write_to_database("MATCH (n) DETACH DELETE n")
+    underground_graph.write_to_database("MATCH (n) DETACH DELETE n")
     
-    # # Load datasets and parse to dict
-    # stations = load_csv_parse_to_dict(r"data/processed/stations_clean.csv")
-    # connections = load_csv_parse_to_dict(r"data/processed/connections_clean.csv")
-    # interchanges = load_csv_parse_to_dict(r"data/processed/interchanges_clean.csv")
+    # Load datasets and parse to dict
+    stations = load_csv_parse_to_dict(r"data/processed/stations_clean.csv")
+    connections = load_csv_parse_to_dict(r"data/processed/connections_clean.csv")
+    interchanges = load_csv_parse_to_dict(r"data/processed/interchanges_clean.csv")
     
-    # # Load cypher queries to write data to database
-    # station_query = read_cypher_file(r"cypher/create_station_nodes.cypher")
-    # connection_query = read_cypher_file(r"cypher/create_station_connections.cypher")
-    # interchange_query = read_cypher_file(r"cypher/create_station_interchanges.cypher")
+    # Load cypher queries to write data to database
+    station_query = read_cypher_file(r"cypher/create_station_nodes.cypher")
+    connection_query = read_cypher_file(r"cypher/create_station_connections.cypher")
+    interchange_query = read_cypher_file(r"cypher/create_station_interchanges.cypher")
     
-    # # Write underground data to Neo4j database
-    # underground_graph.write_underground_data(station_query, stations)
-    # underground_graph.write_underground_data(connection_query, connections)
-    # underground_graph.write_underground_data(interchange_query, interchanges)
+    # Write underground data to Neo4j database
+    underground_graph.write_underground_data(station_query, stations)
+    underground_graph.write_underground_data(connection_query, connections)
+    underground_graph.write_underground_data(interchange_query, interchanges)
 
     graph_interchanges = underground_graph.read_from_database(
     """

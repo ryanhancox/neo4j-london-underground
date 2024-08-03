@@ -31,18 +31,18 @@ def test_stations_uploaded(conn):
 def test_connections_uploaded(conn):
     connections = len(pd.read_csv(r"data/processed/connections_clean.csv"))
     query = """
-    MATCH (:Station)-[c:CONNECTED_TO WHERE c.line <> "Interchange"]-(:Station)
-    RETURN count(distinct(c))
+    MATCH (:Station)-[c:CONNECTED_TO WHERE c.line <> "Interchange"]->(:Station)
+    RETURN count(c)
     """
     graph_connections = conn.read_from_database(query)
-    assert connections == graph_connections[0]["count(distinct(c))"]
+    assert connections == graph_connections[0]["count(c)"]
 
 
 def test_interchanges_uploaded(conn):
     interchanges = len(pd.read_csv(r"data/processed/interchanges_clean.csv"))
     query = """
-    MATCH (:Station)-[c:CONNECTED_TO WHERE c.line = "Interchange"]-(:Station)
-    RETURN count(distinct(c))
+    MATCH (:Station)-[c:CONNECTED_TO WHERE c.line = "Interchange"]->(:Station)
+    RETURN count(c)
     """
     graph_connections = conn.read_from_database(query)
-    assert interchanges == graph_connections[0]["count(distinct(c))"]
+    assert interchanges == graph_connections[0]["count(c)"]
