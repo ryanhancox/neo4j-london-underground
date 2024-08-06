@@ -1,1 +1,1 @@
-CALL gds.graph.drop('{graph_name}', false) YIELD graphName;
+CALL gds.graph.drop($graph_name, false) YIELD graphName;

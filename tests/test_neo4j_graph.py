@@ -23,14 +23,14 @@ def test_neo4j_conn(conn):
 
 def test_invalid_read(conn):
     invalid_query = "MATCH (n:NonExistentLabel) RETURN n"
-    result = conn.read_from_database(invalid_query)
+    result = conn.read_transaction(invalid_query)
     assert result == []
 
 
 def test_stations_uploaded(conn):
     stations = len(pd.read_csv(r"data/processed/stations_clean.csv"))
     query = "MATCH (s:Station) RETURN count(s)"
-    graph_stations = conn.read_from_database(query)
+    graph_stations = conn.read_transaction(query)
     assert stations == graph_stations[0]["count(s)"]
 
 
@@ -40,7 +40,7 @@ def test_connections_uploaded(conn):
     MATCH (:Station)-[c:CONNECTED_TO WHERE c.line <> "Interchange"]->(:Station)
     RETURN count(c)
     """
-    graph_connections = conn.read_from_database(query)
+    graph_connections = conn.read_transaction(query)
     assert connections == graph_connections[0]["count(c)"]
 
 
@@ -50,27 +50,23 @@ def test_interchanges_uploaded(conn):
     MATCH (:Station)-[c:CONNECTED_TO WHERE c.line = "Interchange"]->(:Station)
     RETURN count(c)
     """
-    graph_connections = conn.read_from_database(query)
+    graph_connections = conn.read_transaction(query)
     assert interchanges == graph_connections[0]["count(c)"]
 
 
 def test_create_drop_graph_projection(conn):
     actual_results = []
     graph_name = "test_graph"
-    conn.create_graph_projection(
-        graph_name=graph_name,
-        node_type="Station",
-        relationship_type="CONNECTED_TO"
-    )
+    conn.create_graph_projection(graph_name=graph_name)
     
     # Check graph projection exists
     query = f"CALL gds.graph.exists('{graph_name}') YIELD exists"
-    result = conn.read_from_database(query)
+    result = conn.read_transaction(query)
     actual_results.append(result[0]["exists"])
 
     # Drop the graph connection and verify
     conn.drop_graph_projection(graph_name)
-    result = conn.read_from_database(query)
+    result = conn.read_transaction(query)
     actual_results.append(result[0]["exists"])
 
     assert actual_results == [True, False]

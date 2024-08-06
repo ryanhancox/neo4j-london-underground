@@ -1,6 +1,6 @@
 import logging
-from neo4j import GraphDatabase, Session
-from neo4j.exceptions import Neo4jError, SessionError
+from neo4j import GraphDatabase, Session, Result
+from neo4j.exceptions import ClientError, SessionError
 from src.utilities import read_cypher_file
 
 logging.basicConfig(
@@ -12,14 +12,14 @@ logger = logging.getLogger(__name__)
 class Neo4jConnection:
     """
     Creates a connection to a Neo4j database instance. Can be used to write and
-    read from the database and close the connection as required.
+    read managed transaction to/from the database, and close the connection as required.
     """
     
     def __init__(self, uri: str, user: str, password: str) -> None:
         self.driver = GraphDatabase.driver(uri, auth=(user, password))
 
 
-    def _execute_query(self, tx: Session, query: str, data: dict = None) -> list:
+    def _execute_query(self, tx: Session, query: str, parameters: dict = None) -> Result|None:
         """
         Executes queries against the Neo4j database.
 
@@ -28,55 +28,56 @@ class Neo4jConnection:
         data (dict, optional): The parameters for the Cypher query.
         """
         try:
-            result = tx.run(query, data)
+            result = tx.run(query, parameters)
             return result.data()
         except SessionError as e:
             self.close_connection()
             logger.error(f"Error executing query against Neo4j database: {e}")
             return []
-
-    
-    def close_connection(self) -> None:
-        """Close the connection to the Neo4j database."""
-        self.driver.close()
-        logger.info("Closed the connection to the Neo4j database.")
         
     
-    def write_to_database(self, query: str, data: dict = None) -> None:
+    def write_transaction(self, query: str, parameters: dict = None) -> None:
         """
-        Writes data to the Neo4j database.
+        Writes a transaction to the Neo4j database. Transaction can include one or more
+        queries.
         
         Parameters:
         query (str): The Cypher query to be executed.
-        data (dict, optional): The parameters for the Cypher query.
+        parameters (dict, optional): The parameters for the Cypher query.
         """
         with self.driver.session() as session:
-            session.execute_write(self._execute_query, query, data)
-            logger.info("Write operation to Neo4j database successful.")
+            session.execute_write(self._execute_query, query, parameters)
+            logger.info("Transaction written to Neo4j database successfully.")
 
         
     
-    def read_from_database(self, query: str, data: dict = None) -> list:
+    def read_transaction(self, query: str, parameters: dict = None) -> list:
         """
         Queries the Neo4j database.
         
         Parameters:
         query (str): The Cypher query to be executed.
-        data (dict, optional): The parameters for the Cypher query.
+        parameters (dict, optional): The parameters for the Cypher query.
         
         Returns:
-        list: A list of query results.
+        A list of query results.
         """
         with self.driver.session() as session:
-            result = session.execute_read(self._execute_query, query, data)
+            result = session.execute_read(self._execute_query, query, parameters)
             logger.info("Read operation on the Neo4j database successful.")
-            return result     
+            return result 
         
+
+    def close_connection(self) -> None:
+        """Close the connection to the Neo4j database."""
+        self.driver.close()
+        logger.info("Closed the connection to the Neo4j database.")
         
 class LondonUndergroundGraph(Neo4jConnection):
     """
     This class is used to create the London Underground graph in the Neo4j database instance.
     Methods are included to load the station, connection, and interchange data seperately.
+    Additional functionality is included to determine the shortest path between two station nodes.
     """
     
     def __init__(self, uri, user, password):
@@ -92,37 +93,27 @@ class LondonUndergroundGraph(Neo4jConnection):
         with `UNWIND $data`.
         data (dict): The data to be written to the Neo4j database.
         """
-        self.write_to_database(query, {f"data": data})
-        
-        
-    def _execute_cypher_file_query(self, cypher_f_path: str, **kwargs) -> None:
-        
-        try:
-            query = read_cypher_file(cypher_f_path)
-            formatted_query = query.format(**kwargs)
-            with self.driver.session() as session:
-                session.run(formatted_query)
-            logger.info(f"Query from `{cypher_f_path}` executed successfully.")
-        except Neo4jError as e:
-            logger.error(f"Failed to execute query from `{cypher_f_path}: {e}")
-            
+        self.write_transaction(query, {f"data": data})
 
-    def create_graph_projection(self, graph_name: str, node_type: str, relationship_type: str) -> None:
+
+    def create_graph_projection(self, graph_name: str) -> None:
         """
-        Creates a graph projection in the Neo4j database for the London Undergroun Graph.
-        
+        Creates a graph projection (stations and connections) in the Neo4j database for 
+        the London Underground Graph, using the specified cypher file.
+
         Parameters:
-        graph_name (str): The name of the graph projection.
-        node_type (str): Type of node to include in the graph projection.
-        relationship_type (str): Type of relationship to include in the graph projection.
+        graph_name (str): Name for the projection graph.
         """
-        self._execute_cypher_file_query(
-            r"cypher/create_graph_projection.cypher",
-            graph_name=graph_name,
-            node_type=node_type,
-            relationship_type=relationship_type
-        )
-                
+        query = read_cypher_file(r"cypher/create_graph_projection.cypher")
+        parameters = {"graph_name": graph_name,}
+        try:
+            self.driver.execute_query(query, parameters)
+        except ClientError as e:
+            self.drop_graph_projection(graph_name)
+            self.driver.execute_query(query, parameters)
+        finally:
+            logger.info(f"Graph projection `{graph_name}` created successfully.")
+
     
     def drop_graph_projection(self, graph_name: str) -> None:
         """
@@ -131,10 +122,23 @@ class LondonUndergroundGraph(Neo4jConnection):
         Parameters:
         graph_name (str): The name of the graph projection to drop.
         """
-        self._execute_cypher_file_query(
-            r"cypher/drop_graph_projection.cypher",
-            graph_name=graph_name
-        )
-        
+        exists = self.read_transaction(f"CALL gds.graph.exists('{graph_name}') YIELD exists")
+        if exists[0]["exists"]:
+            query = read_cypher_file(r"cypher/drop_graph_projection.cypher")
+            parameters = {"graph_name": graph_name}
+            self.driver.execute_query(query, parameters)
+            logger.info(f"Graph projection `{graph_name}` dropped successfully.")
+        else:
+            logger.warning(f"Graph projection `{graph_name}` does not exist in the database.")
+
     
+    def find_shortest_path(self, graph_name: str, station_from: str, station_to: str) -> list:
+        query = read_cypher_file(r"cypher/run_dijkstra.cypher")
+        parameters = {
+            "graph_name": graph_name,
+            "station_from": station_from,
+            "station_to": station_to,
+        }
+        result = self.read_transaction(query, parameters)
+        return result
         
