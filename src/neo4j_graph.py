@@ -133,6 +133,16 @@ class LondonUndergroundGraph(Neo4jConnection):
 
     
     def find_shortest_path(self, graph_name: str, station_from: str, station_to: str) -> list:
+        """
+        Finds the shortest path between a origin station and target station using
+        Neo4j's Dijkstra's algorithm.
+
+        Parameters:
+        graph_name (str): The name of the graph projection that is required for the
+                          shortest path calculation.
+        station_from (str): The origin station to use in the shortest path calculation.
+        station_to (str): The target station to use in the shortest path calculation.
+        """
         query = read_cypher_file(r"cypher/run_dijkstra.cypher")
         parameters = {
             "graph_name": graph_name,
