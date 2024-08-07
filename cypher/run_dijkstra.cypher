@@ -14,7 +14,4 @@ RETURN
     totalCost,
     [nodeId IN nodeIds | gds.util.asNode(nodeId).name] AS nodeNames,
     costs,
-    nodes(path) as path
-ORDER BY totalCost
-LIMIT 1
-;
+    nodes(path) AS path,
