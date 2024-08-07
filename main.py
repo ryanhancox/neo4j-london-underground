@@ -35,25 +35,18 @@ if __name__ == "__main__":
     # underground_graph.write_underground_data(connection_query, connections)
     # underground_graph.write_underground_data(interchange_query, interchanges)
 
-    # underground_graph.create_graph_projection(
-    #     'underground_test',
-    #     'Station',
-    #     'CONNECTED_TO',
-    #     'duration'
-    # )
-    # GRAPH_NAME = "underground_test"
-    # underground_graph.create_graph_projection(GRAPH_NAME)
+    GRAPH_NAME = "underground_test"
+    underground_graph.create_graph_projection(GRAPH_NAME)
 
-    # shortest_path = underground_graph.find_shortest_path(
-    #     graph_name="underground_test",
-    #     station_from="Sloane Square",
-    #     station_to="Waterloo",
-    # )
-    # print("\n")
-    # print(shortest_path)
+    shortest_path = underground_graph.find_shortest_path(
+        graph_name="underground_test",
+        station_from="Sloane Square",
+        station_to="Waterloo",
+    )
+    print("\n")
+    print(shortest_path)
 
-    # underground_graph.drop_graph_projection(GRAPH_NAME)
+    underground_graph.drop_graph_projection(GRAPH_NAME)
 
-    test = load_csv_parse_to_dict(r"cypher/test.cypher")
     # Close connection
     underground_graph.close_connection()
