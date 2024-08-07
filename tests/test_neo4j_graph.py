@@ -4,6 +4,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from src.neo4j_graph import LondonUndergroundGraph
 
+
 @pytest.fixture(scope="module")
 def conn():
     # Load environment variables
@@ -17,9 +18,10 @@ def conn():
 
 
 def test_neo4j_conn(conn):
-    assert conn.driver.verify_authentication() == True,\
-        "Driver verification should return true"
-    
+    assert (
+        conn.driver.verify_authentication() is True
+    ), "Driver verification should return true"
+
 
 def test_invalid_read(conn):
     invalid_query = "MATCH (n:NonExistentLabel) RETURN n"
@@ -58,7 +60,7 @@ def test_create_drop_graph_projection(conn):
     actual_results = []
     graph_name = "test_graph"
     conn.create_graph_projection(graph_name=graph_name)
-    
+
     # Check graph projection exists
     query = f"CALL gds.graph.exists('{graph_name}') YIELD exists"
     result = conn.read_transaction(query)

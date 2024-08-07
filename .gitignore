@@ -2,5 +2,6 @@ __pycache__
 
 .env
 .pytest_cache
+.flake8
 
 neo4j_aura_config.txt

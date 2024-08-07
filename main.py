@@ -2,7 +2,6 @@ import os
 import pandas as pd
 from dotenv import load_dotenv
 from src.neo4j_graph import LondonUndergroundGraph
-from src.graph_data_science import GraphDataScience
 from src.utilities import load_csv_parse_to_dict, read_cypher_file
 
 if __name__ == "__main__":
