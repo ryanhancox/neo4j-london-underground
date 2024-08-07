@@ -1,14 +1,10 @@
 import os
-import logging
 import pandas as pd
 from dotenv import load_dotenv
 from src.neo4j_graph import LondonUndergroundGraph
 from src.utilities import load_csv_parse_to_dict, read_cypher_file
+from src.parsers import extract_shortest_path_summary
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
 
 if __name__ == "__main__":
     _ = load_dotenv()
@@ -43,8 +39,9 @@ if __name__ == "__main__":
         station_from="Sloane Square",
         station_to="Waterloo",
     )
-    print("\n")
-    print(shortest_path)
+    summary = extract_shortest_path_summary(shortest_path)
+    for connection in summary:
+        print(connection)
 
     underground_graph.drop_graph_projection(GRAPH_NAME)
 
