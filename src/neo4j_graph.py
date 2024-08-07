@@ -3,10 +3,7 @@ from neo4j import GraphDatabase, Session, Result
 from neo4j.exceptions import ClientError, SessionError
 from src.utilities import read_cypher_file
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
-)
+
 logger = logging.getLogger(__name__)
 
 
@@ -19,6 +16,7 @@ class Neo4jConnection:
 
     def __init__(self, uri: str, user: str, password: str) -> None:
         self.driver = GraphDatabase.driver(uri, auth=(user, password))
+        logger.info(f"Neo4jConnection initialised with URI: {uri}")
 
     def _execute_query(
         self, tx: Session, query: str, parameters: dict = None
