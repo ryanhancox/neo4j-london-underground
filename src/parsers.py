@@ -70,7 +70,7 @@ class ShortestPathParser:
             f"Total duration for the jouney = {total_duration} minutes"
         )
         return spath_summary
-    
+
     def extract_connection_coordinates(self) -> List[dict]:
         """
         Extracts the start and end latitude and longitude for each connection in the
