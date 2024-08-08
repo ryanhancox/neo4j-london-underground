@@ -63,8 +63,8 @@ class Neo4jConnection:
         """
         with self.driver.session() as session:
             result = session.execute_read(
-                self._execute_query, 
-                query, 
+                self._execute_query,
+                query,
                 parameters,
             )
             logger.info("Read operation on the Neo4j database successful.")

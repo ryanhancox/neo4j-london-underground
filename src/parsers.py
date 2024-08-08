@@ -47,7 +47,7 @@ class ShortestPathParser:
             # Get on first station
             if i == 0:
                 spath_summary.append(
-                    f"Get on the {current_line} line at {current_station}."
+                    f"Get on the {current_line} line at {current_station}"
                 )
             # Determine if any station after first station is an interchange or
             # connection
@@ -57,16 +57,16 @@ class ShortestPathParser:
                 if (current_station == prev_station) and (current_line != prev_line):
                     spath_summary.append(
                         f"Change at {current_station} from the {prev_line} line to"
-                        f" the {current_line} line ({durations[i-1]} minutes)."
+                        f" the {current_line} line ({durations[i-1]} minutes)"
                     )
                 else:
                     spath_summary.append(
                         f"Continue on the {current_line} line to {current_station}"
-                        f" ({durations[i-1]} minutes)."
+                        f" ({durations[i-1]} minutes)"
                     )
 
         total_duration = self.spath_data[0]["totalCost"]
         spath_summary.append(
-            f"Total duration for the jouney is {total_duration} minutes."
+            f"Total duration for the jouney = {total_duration} minutes"
         )
         return spath_summary
