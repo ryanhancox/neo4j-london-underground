@@ -1,4 +1,5 @@
 import logging
+from typing import List
 from neo4j import GraphDatabase, Session, Result
 from neo4j.exceptions import ClientError, SessionError
 from src.utilities import read_cypher_file
@@ -49,7 +50,7 @@ class Neo4jConnection:
             session.execute_write(self._execute_query, query, parameters)
             logger.info("Transaction written to Neo4j database successfully.")
 
-    def read_transaction(self, query: str, parameters: dict = None) -> list:
+    def read_transaction(self, query: str, parameters: dict = None) -> List[dict]:
         """
         Queries the Neo4j database.
 

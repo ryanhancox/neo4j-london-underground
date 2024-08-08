@@ -3,7 +3,7 @@ import pandas as pd
 from dotenv import load_dotenv
 from src.neo4j_graph import LondonUndergroundGraph
 from src.utilities import load_csv_parse_to_dict, read_cypher_file
-from src.parsers import extract_shortest_path_summary
+from src.parsers import ShortestPathParser
 
 
 if __name__ == "__main__":
@@ -34,16 +34,17 @@ if __name__ == "__main__":
     GRAPH_NAME = "underground_test"
     underground_graph.create_graph_projection(GRAPH_NAME)
 
-    shortest_path = underground_graph.find_shortest_path(
-        graph_name="underground_test",
-        station_from="Sloane Square",
-        station_to="Waterloo",
-    )
-    summary = extract_shortest_path_summary(shortest_path)
-    for connection in summary:
-        print(connection)
+    # shortest_path = underground_graph.find_shortest_path(
+    #     graph_name="underground_test",
+    #     station_from="Sloane Square",
+    #     station_to="Waterloo",
+    # )
+    # parser = ShortestPathParser(shortest_path)
+    # journey_summary = parser.extract_shortest_path_summary()
+    # for connection in journey_summary:
+    #     print(connection)
 
-    underground_graph.drop_graph_projection(GRAPH_NAME)
+    #underground_graph.drop_graph_projection(GRAPH_NAME)
 
     # Close connection
     underground_graph.close_connection()
