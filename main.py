@@ -31,18 +31,17 @@ if __name__ == "__main__":
     # underground_graph.write_underground_data(connection_query, connections)
     # underground_graph.write_underground_data(interchange_query, interchanges)
 
-    GRAPH_NAME = "underground_test"
-    underground_graph.create_graph_projection(GRAPH_NAME)
+    # GRAPH_NAME = "underground_test"
+    # underground_graph.create_graph_projection(GRAPH_NAME)
 
-    # shortest_path = underground_graph.find_shortest_path(
-    #     graph_name="underground_test",
-    #     station_from="Sloane Square",
-    #     station_to="Waterloo",
-    # )
-    # parser = ShortestPathParser(shortest_path)
-    # journey_summary = parser.extract_shortest_path_summary()
-    # for connection in journey_summary:
-    #     print(connection)
+    shortest_path = underground_graph.find_shortest_path(
+        graph_name="underground_test",
+        station_from="Sloane Square",
+        station_to="Waterloo",
+    )
+    parser = ShortestPathParser(shortest_path)
+    coords = parser.extract_connection_coordinates()
+    print(coords)
 
     #underground_graph.drop_graph_projection(GRAPH_NAME)
 

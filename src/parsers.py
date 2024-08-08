@@ -70,3 +70,28 @@ class ShortestPathParser:
             f"Total duration for the jouney = {total_duration} minutes"
         )
         return spath_summary
+    
+    def extract_connection_coordinates(self) -> List[dict]:
+        """
+        Extracts the start and end latitude and longitude for each connection in the
+        shortest path route object.
+        """
+        connection_coords = []
+        path = self.spath_data[0]["path"]
+        for i, node in enumerate(path):
+            # Need to start for the 1st index to obtain the start lat and
+            # long for the first connection from the 0th index
+            if i > 0:
+                start_lat = path[i-1]["latitude"]
+                start_long = path[i-1]["longitude"]
+                next_lat = node["latitude"]
+                next_long = node["longitude"]
+                connection_coords.append(
+                    {
+                        "start_lat": start_lat,
+                        "start_long": start_long,
+                        "next_lat": next_lat,
+                        "next_long": next_long,
+                    }
+                )
+        return connection_coords

@@ -33,14 +33,18 @@ if __name__ == "__main__":
     with st.form("route_form"):
         station_from = st.selectbox("Start", df_stations)
         station_to = st.selectbox("Destination", df_stations)
-        st.form_submit_button("Find Route!")
+        form_submitted = st.form_submit_button("Find Route!")
 
-    route = underground_graph.find_shortest_path(
-        graph_name="underground_test",
-        station_from=station_from,
-        station_to=station_to,
-    )
-    parser = ShortestPathParser(spath_data=route)
-    summary = parser.extract_shortest_path_summary()
-    for connection in summary:
-        st.write(f"* {connection}")
+    if (form_submitted) and (station_from != station_to):
+        route = underground_graph.find_shortest_path(
+            graph_name="underground_test",
+            station_from=station_from,
+            station_to=station_to,
+        )
+        parser = ShortestPathParser(spath_data=route)
+        summary = parser.extract_shortest_path_summary()
+        for connection in summary:
+            st.write(f"* {connection}")
+    
+    else:
+        st.write("Start and Destination stations are the same!")
